@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+@@include('html/head.html', {
+"title": "Проект"
+})
+
+<body class="bd">
+	@@include('html/header.html', {})
+	<main>
+
+		<div class="breadcrumbs section-first">
+			<div class="container">
+				<div class="breadcrumbs__block" itemscope="" itemtype="http://schema.org/BreadcrumbList"><span
+						itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a
+							href="https://antonkharitonov.pro" itemprop="item"><span class="breadcrumbs-link"
+								itemprop="name">Главная</span>
+							<meta itemprop="position" content="1">
+						</a></span><span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a
+							href="https://antonkharitonov.pro" itemprop="item"><span class="breadcrumbs-link" itemprop="name">Каталог
+								проектов</span>
+							<meta itemprop="position" content="1">
+						</a></span>
+					<span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><span
+							class="breadcrumbs-title" itemprop="name">Дома из клееного бруса</span>
+						<meta itemprop="position" content="2">
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<section class="section-pb project-slider">
+			<div class="container">
+				<div class="project-slider__block">
+					<div class="project-slider__group">
+						<div class="swiper project-slider-main">
+							<div class="swiper-wrapper">
+								<a href="img/project-page/project-slider/image-1.jpg" class="swiper-slide"
+									data-fancybox="project-gallery">
+									<img src="img/project-page/project-slider/image-1.jpg" alt="фото">
+								</a>
+								<a href="img/project-page/project-slider/image-1.jpg" class="swiper-slide"
+									data-fancybox="project-gallery">
+									<img src="img/project-page/project-slider/image-1.jpg" alt="фото">
+								</a>
+								<a href="img/project-page/project-slider/image-1.jpg" class="swiper-slide"
+									data-fancybox="project-gallery">
+									<img src="img/project-page/project-slider/image-1.jpg" alt="фото">
+								</a>
+								<a href="img/project-page/project-slider/image-1.jpg" class="swiper-slide"
+									data-fancybox="project-gallery">
+									<img src="img/project-page/project-slider/image-1.jpg" alt="фото">
+								</a>
+							</div>
+							<div class="project-slider-main__label label label--dark">
+								<span class="icon">
+									<img src="img/interface/tag-logo.svg" alt="лого">
+								</span>
+							</div>
+						</div>
+
+						<div class="swiper project-slider-thumbs">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="box">
+										<img src="https://vvdom.ru/wp-content/uploads/2026/08/8656ede1-34d4-4ed9-9e51-b1e6896b90e3.png"
+											alt="Изображение">
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="box">
+										<img src="https://vvdom.ru/wp-content/uploads/2026/08/8656ede1-34d4-4ed9-9e51-b1e6896b90e3.png"
+											alt="Изображение">
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="box">
+										<img src="https://vvdom.ru/wp-content/uploads/2026/08/8656ede1-34d4-4ed9-9e51-b1e6896b90e3.png"
+											alt="Изображение">
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="box">
+										<img src="https://vvdom.ru/wp-content/uploads/2026/08/8656ede1-34d4-4ed9-9e51-b1e6896b90e3.png"
+											alt="Изображение">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="project-slider__desc">
+						<div class="project-slider__desc-wrapper">
+							<div class="project-slider__info">
+								<p class="project-slider__name">Запись №3 Керамический 120 Ипотека (нет)</p>
+								<div class="project-slider__price">
+									<p>от 2,79 млн ₽</p>
+								</div>
+							</div>
+							<div class="project-slider__buttons">
+								<button class="project-slider__btn btn-accent">Оформить заявку</button>
+								<div class="project-slider__share btn-border share-btn" id="shareButton">
+									<span class="share-text">Поделиться</span>
+									<span class="icon">
+										<svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M17.0125 22C16.1842 22 15.4812 21.7169 14.9037 21.1506C14.3271 20.5834 14.0387 19.8949 14.0387 19.085C14.0387 18.9628 14.0937 18.6544 14.2037 18.1598L5.2075 12.9372C4.9375 13.242 4.60708 13.4811 4.21625 13.6547C3.82542 13.8282 3.40583 13.915 2.9575 13.915C2.13583 13.915 1.4375 13.629 0.8625 13.057C0.2875 12.485 0 11.7993 0 11C0 10.2007 0.2875 9.515 0.8625 8.943C1.4375 8.371 2.13583 8.085 2.9575 8.085C3.405 8.085 3.82458 8.17178 4.21625 8.34533C4.60792 8.51889 4.93833 8.75844 5.2075 9.064L14.205 3.86344C14.1467 3.70537 14.1046 3.54852 14.0787 3.39289C14.0521 3.23644 14.0387 3.07674 14.0387 2.91378C14.0387 2.10467 14.3292 1.41656 14.91 0.849444C15.4908 0.283148 16.1958 0 17.025 0C17.8542 0 18.5575 0.283963 19.135 0.851889C19.7125 1.41981 20.0008 2.10915 20 2.91989C19.9992 3.73063 19.7096 4.41833 19.1312 4.983C18.5529 5.54767 17.8487 5.82959 17.0187 5.82878C16.5671 5.82878 16.1504 5.73833 15.7687 5.55744C15.3871 5.37655 15.0621 5.13333 14.7937 4.82778L5.795 10.0503C5.85333 10.2084 5.89542 10.3657 5.92125 10.5221C5.94792 10.6777 5.96125 10.837 5.96125 11C5.96125 11.163 5.94792 11.3223 5.92125 11.4779C5.89458 11.6335 5.85292 11.7908 5.79625 11.9497L14.7937 17.1722C15.0629 16.8667 15.3879 16.6234 15.7687 16.4426C16.1504 16.2617 16.5671 16.1712 17.0187 16.1712C17.8471 16.1712 18.5512 16.4548 19.1312 17.0219C19.7104 17.5906 20 18.2804 20 19.0911C20 19.9019 19.7096 20.5896 19.1287 21.1542C18.5479 21.7189 17.8417 22.0008 17.0125 22Z"
+												fill="#2F444E" />
+										</svg>
+									</span>
+
+									<!-- Выпадающее меню (по умолчанию скрыто) -->
+									<div class="share-menu" id="shareMenu">
+										<a class="share-menu__item" href="#" data-share="vkontakte" target="_blank" rel="noopener">
+											ВКонтакте
+										</a>
+										<a class="share-menu__item" href="#" data-share="max" target="_blank" rel="noopener">
+											Max
+										</a>
+										<a class="share-menu__item" href="#" data-share="telegram" target="_blank" rel="noopener">
+											Telegram
+										</a>
+										<a class="share-menu__item" href="#" data-share="whatsapp" target="_blank" rel="noopener">
+											WhatsApp
+										</a>
+										<button class="share-menu__item share-menu__copy" id="copyLinkButton">
+											Скопировать ссылку
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="project-slider__desc project-slider__desc-mob">
+						<div class="project-slider__desc-wrapper">
+							<div class="project-slider__info">
+								<p class="project-slider__name">Запись №3 Керамический 120 Ипотека (нет)</p>
+								<div class="project-slider__price">
+									<p>от 2,79 млн ₽</p>
+								</div>
+							</div>
+							<div class="project-slider__buttons">
+								<button class="project-slider__btn btn-accent">Оформить заявку</button>
+								<div class="project-slider__share btn-border share-btn" id="shareButton">
+									<span class="share-text">Поделиться</span>
+									<span class="icon">
+										<svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M17.0125 22C16.1842 22 15.4812 21.7169 14.9037 21.1506C14.3271 20.5834 14.0387 19.8949 14.0387 19.085C14.0387 18.9628 14.0937 18.6544 14.2037 18.1598L5.2075 12.9372C4.9375 13.242 4.60708 13.4811 4.21625 13.6547C3.82542 13.8282 3.40583 13.915 2.9575 13.915C2.13583 13.915 1.4375 13.629 0.8625 13.057C0.2875 12.485 0 11.7993 0 11C0 10.2007 0.2875 9.515 0.8625 8.943C1.4375 8.371 2.13583 8.085 2.9575 8.085C3.405 8.085 3.82458 8.17178 4.21625 8.34533C4.60792 8.51889 4.93833 8.75844 5.2075 9.064L14.205 3.86344C14.1467 3.70537 14.1046 3.54852 14.0787 3.39289C14.0521 3.23644 14.0387 3.07674 14.0387 2.91378C14.0387 2.10467 14.3292 1.41656 14.91 0.849444C15.4908 0.283148 16.1958 0 17.025 0C17.8542 0 18.5575 0.283963 19.135 0.851889C19.7125 1.41981 20.0008 2.10915 20 2.91989C19.9992 3.73063 19.7096 4.41833 19.1312 4.983C18.5529 5.54767 17.8487 5.82959 17.0187 5.82878C16.5671 5.82878 16.1504 5.73833 15.7687 5.55744C15.3871 5.37655 15.0621 5.13333 14.7937 4.82778L5.795 10.0503C5.85333 10.2084 5.89542 10.3657 5.92125 10.5221C5.94792 10.6777 5.96125 10.837 5.96125 11C5.96125 11.163 5.94792 11.3223 5.92125 11.4779C5.89458 11.6335 5.85292 11.7908 5.79625 11.9497L14.7937 17.1722C15.0629 16.8667 15.3879 16.6234 15.7687 16.4426C16.1504 16.2617 16.5671 16.1712 17.0187 16.1712C17.8471 16.1712 18.5512 16.4548 19.1312 17.0219C19.7104 17.5906 20 18.2804 20 19.0911C20 19.9019 19.7096 20.5896 19.1287 21.1542C18.5479 21.7189 17.8417 22.0008 17.0125 22Z"
+												fill="#2F444E" />
+										</svg>
+									</span>
+
+									<!-- Выпадающее меню (по умолчанию скрыто) -->
+									<div class="share-menu" id="shareMenu">
+										<a class="share-menu__item" href="#" data-share="vkontakte" target="_blank" rel="noopener">
+											ВКонтакте
+										</a>
+										<a class="share-menu__item" href="#" data-share="max" target="_blank" rel="noopener">
+											Max
+										</a>
+										<a class="share-menu__item" href="#" data-share="telegram" target="_blank" rel="noopener">
+											Telegram
+										</a>
+										<a class="share-menu__item" href="#" data-share="whatsapp" target="_blank" rel="noopener">
+											WhatsApp
+										</a>
+										<button class="share-menu__item share-menu__copy" id="copyLinkButton">
+											Скопировать ссылку
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project-specifications section">
+			<div class="container">
+				<div class="project-specifications__block">
+					<div class="project-specifications__header">
+						<div class="project-specifications__desc">
+							<div class="tag-logo">
+								<div class="tag-logo__icon">
+									<div class="icon">
+										<img src="img/interface/tag-logo.svg" alt="лого">
+									</div>
+								</div>
+								<p class="tag-logo__text">Об объекте</p>
+							</div>
+							<h2 class="section-title project-specifications__title">Основные характеристики</h2>
+						</div>
+						<div class="project-specifications__items">
+							<div class="project-specifications__item">
+								<div class="project-specifications__icon">
+									<div class="box">
+										<img src="img/project-page/project-specifications/icon-1.svg" alt="иконка">
+									</div>
+								</div>
+								<p class="project-specifications__text">Клееный брус</p>
+							</div>
+							<div class="project-specifications__item">
+								<div class="project-specifications__icon">
+									<div class="box">
+										<img src="img/project-page/project-specifications/icon-2.svg" alt="иконка">
+									</div>
+								</div>
+								<p class="project-specifications__text">Все сезоны</p>
+							</div>
+							<div class="project-specifications__item">
+								<div class="project-specifications__icon">
+									<div class="box">
+										<img src="img/project-page/project-specifications/icon-3.svg" alt="иконка">
+									</div>
+								</div>
+								<p class="project-specifications__text">63 кв.м²</p>
+							</div>
+							<div class="project-specifications__item">
+								<div class="project-specifications__icon">
+									<div class="box">
+										<img src="img/project-page/project-specifications/icon-4.svg" alt="иконка">
+									</div>
+								</div>
+								<p class="project-specifications__text">6 комнат</p>
+							</div>
+						</div>
+					</div>
+					<div class="tabs block">
+						<div class="tabs__nav">
+							<button class="tabs__btn tabs__btn_active">Характеристики</button>
+							<button class="tabs__btn">Поэтажный план</button>
+							<button class="tabs__btn">Алгоритм работы</button>
+							<button class="tabs__btn">Ипотека</button>
+						</div>
+						<div class="tabs__content">
+							<div class="tabs__pane tabs__pane_show">
+								<div class="project-specifications-desc">
+									<div class="project-specifications-desc__col">
+										<p class="name project-specifications-desc__name">Планировочные решения</p>
+										<div class="project-specifications-desc__list">
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Площадь застройки</p>
+												<p class="project-specifications-desc__text">183 м2</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Площадь дома</p>
+												<p class="project-specifications-desc__text">146.8 м2</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Количество надземных этажей
+												</p>
+												<p class="project-specifications-desc__text">1</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Количество надземных этажей
+												</p>
+												<p class="project-specifications-desc__text">0</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Высота дома</p>
+												<p class="project-specifications-desc__text">6.33 м</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Высота потолков</p>
+												<p class="project-specifications-desc__text">3 м</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Объем надземной части</p>
+												<p class="project-specifications-desc__text">162 м3</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Пригодность
+													для постоянного проживания</p>
+												<p class="project-specifications-desc__text">да</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Архитектурный стиль</p>
+												<p class="project-specifications-desc__text">минимализм</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Класс энергосбережения</p>
+												<p class="project-specifications-desc__text">x</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Класс энергоэффективности
+												</p>
+												<p class="project-specifications-desc__text">x</p>
+											</div>
+										</div>
+									</div>
+									<div class="project-specifications-desc__col">
+										<p class="name project-specifications-desc__name">Конструктивные решения</p>
+										<div class="project-specifications-desc__list">
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Электроснабжение</p>
+												<p class="project-specifications-desc__text">центральное</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Электроснабжение</p>
+												<p class="project-specifications-desc__text">центральное</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Теплоснабжение</p>
+												<p class="project-specifications-desc__text">индивидуальное</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Водоснабжение</p>
+												<p class="project-specifications-desc__text">индивидуальное</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Водоотведение</p>
+												<p class="project-specifications-desc__text">индивидуальное</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Отопление</p>
+												<p class="project-specifications-desc__text">индивидуальное</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Вентиляция</p>
+												<p class="project-specifications-desc__text">Естественная</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Противопожарная система</p>
+												<p class="project-specifications-desc__text">Нет</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Улучшенные шумовые
+													характеристики</p>
+												<p class="project-specifications-desc__text">Нет</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Изоляция воздушного шума
+												</p>
+												<p class="project-specifications-desc__text">Нет</p>
+											</div>
+											<div class="project-specifications-desc__stroke">
+												<p class="project-specifications-desc__text">Приборы учета тепловой
+													энергии</p>
+												<p class="project-specifications-desc__text">Нет</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__pane">
+								<div class="project-specifications-plan">
+									<div class="tabs">
+										<div class="tabs__nav">
+											<button class="tabs__btn tabs__btn_active">Этаж 1</button>
+											<button class="tabs__btn">Этаж 2</button>
+										</div>
+										<div class="tabs__content">
+											<div class="tabs__pane tabs__pane_show">
+												<div class="project-specifications-plan__one">
+													<div class="box">
+														<img src="img/project-page/project-specifications/floor-1.png" alt="фото">
+													</div>
+												</div>
+											</div>
+											<div class="tabs__pane">
+												<div class="project-specifications-plan__two">
+													<div class="box">
+														<img src="img/project-page/project-specifications/floor-2.png" alt="фото">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__pane">
+								<div class="project-specifications-algorithm">
+									<div class="project-specifications-algorithm__items">
+										<div class="project-specifications-algorithm__item">
+											<div class="project-specifications-algorithm__header">
+												<div class="project-specifications-algorithm__num name">
+													<span>1</span>
+												</div>
+												<p class="name project-specifications-algorithm__name">Встреча в офисе
+												</p>
+											</div>
+											<div class="project-specifications-algorithm__text text">
+												<p>Всё начинается с личного знакомства. Приезжайте к нам в офис - мы
+													обсудим ваши пожелания, бюджет и сроки. Покажем
+													готовые проекты, расскажем о материалах и ответим на все вопросы.
+												</p>
+											</div>
+										</div>
+										<div class="project-specifications-algorithm__item">
+											<div class="project-specifications-algorithm__header">
+												<div class="project-specifications-algorithm__num name">
+													<span>2</span>
+												</div>
+												<p class="name project-specifications-algorithm__name">Разработка
+													проекта</p>
+											</div>
+											<div class="project-specifications-algorithm__text text">
+												<p>Мы создаём индивидуальный проект дома с учётом всех ваших пожеланий -
+													планировка, высота потолков, расположение комнат,
+													выбор материалов. Вы вносите любые изменения на этом этапе.
+													Согласовываем смету и фиксируем бюджет.</p>
+											</div>
+										</div>
+										<div class="project-specifications-algorithm__item">
+											<div class="project-specifications-algorithm__header">
+												<div class="project-specifications-algorithm__num name">
+													<span>3</span>
+												</div>
+												<p class="name project-specifications-algorithm__name">Фундамент и
+													наружные коммуникации</p>
+											</div>
+											<div class="project-specifications-algorithm__text text">
+												<p>Начинаем строительство с надёжного основания. Заливаем фундамент с
+													учётом типа грунта и веса будущего дома. Параллельно
+													прокладываем наружные инженерные сети: водоснабжение, канализацию,
+													электрику - всё, чтобы дом был готов к жизни.</p>
+											</div>
+										</div>
+										<div class="project-specifications-algorithm__item">
+											<div class="project-specifications-algorithm__header">
+												<div class="project-specifications-algorithm__num name">
+													<span>4</span>
+												</div>
+												<p class="name project-specifications-algorithm__name">Сборка и
+													возведение дома</p>
+											</div>
+											<div class="project-specifications-algorithm__text text">
+												<p>Возводим стены, перекрытия и кровлю по выбранной технологии. Каждый
+													этап фиксируем в фотоотчёте, вы видите прогресс в
+													реальном времени.</p>
+											</div>
+										</div>
+										<div class="project-specifications-algorithm__item">
+											<div class="project-specifications-algorithm__header">
+												<div class="project-specifications-algorithm__num name">
+													<span>5</span>
+												</div>
+												<p class="name project-specifications-algorithm__name">Внутренние
+													коммуникации и отделка</p>
+											</div>
+											<div class="project-specifications-algorithm__text text">
+												<p>Прокладываем отопление, водоснабжение, канализацию, монтируем
+													электрику. Делаем черновую и чистовую отделку. Остаётся
+													только занести мебель.</p>
+											</div>
+										</div>
+										<div class="project-specifications-algorithm__item">
+											<div class="project-specifications-algorithm__header">
+												<div class="project-specifications-algorithm__num name">
+													<span>6</span>
+												</div>
+												<p class="name project-specifications-algorithm__name">Вручение ключей
+												</p>
+											</div>
+											<div class="project-specifications-algorithm__text text">
+												<p>Финишный этап - подписание акта приема-передачи. Вы осматриваете дом,
+													проверяете всё до мелочей, мы передаём ключи и
+													документы. Поздравляем — вы дома!</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__pane">
+								<div class="project-specifications-mortgage">
+									<div class="calculator__header">
+										<p class="name calculator__name">Калькулятор ипотеки</p>
+										<div class="calculator__text text">
+											<p>Выберите сумму кредита</p>
+										</div>
+									</div>
+									<div class="calculator__content">
+										<div class="calculator__buttons">
+											<button class="calculator__btn btn-light" data-rate="18">Ипотека</button>
+											<button class="calculator__btn btn-light active" data-rate="8">Семейная
+												ипотека</button>
+											<button class="calculator__btn btn-light" data-rate="5">Ипотека для
+												IT</button>
+										</div>
+										<div class="calculator__group">
+											<div class="calculator__left">
+												<div class="calculator-parameter__items">
+													<!-- Ползунок 1: Желаемая сумма кредита -->
+													<div class="calculator-parameter-item">
+														<div class="calculator-parameter-item__group">
+															<p class="calculator-parameter-item__name">Желаемая сумма
+																кредита</p>
+															<div class="calculator-parameter-item__data">
+																<span id="equipment-value">4 209 000</span> <span class="currency">₽</span>
+															</div>
+														</div>
+														<div class="calculator-parameter-item__range">
+															<div id="slider-equipment"
+																class="custom-slider ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+																<div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"
+																	style="width: 11.0655%;"></div><span tabindex="0"
+																	class="ui-slider-handle ui-corner-all ui-state-default"
+																	style="left: 11.0655%;"></span>
+															</div>
+															<div class="range-labels">
+																<span class="from">от <span id="equipment-from-label">4
+																		209 000</span> ₽</span>
+																<span class="to">до <span id="equipment-to-label">30 000
+																		000</span> ₽</span>
+															</div>
+														</div>
+													</div>
+
+													<!-- Ползунок 2: Первоначальный взнос -->
+													<div class="calculator-parameter-item">
+														<div class="calculator-parameter-item__group">
+															<p class="calculator-parameter-item__name">Первоначальный
+																взнос</p>
+															<div class="calculator-parameter-item__data">
+																<span id="downpayment-value">2 062 410</span> <span class="currency">₽</span> / <span
+																	id="downpayment-percent">49.0</span> <span class="percent">%</span>
+															</div>
+														</div>
+														<div class="calculator-parameter-item__range">
+															<div id="slider-downpayment"
+																class="custom-slider ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+																<div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"
+																	style="width: 100%;"></div><span tabindex="0"
+																	class="ui-slider-handle ui-corner-all ui-state-default" style="left: 100%;"></span>
+															</div>
+															<div class="range-labels">
+																<span class="from"><span id="downpayment-from-label">49.0</span>
+																	%</span>
+																<span class="to"><span id="downpayment-to-label">49</span>
+																	%</span>
+															</div>
+														</div>
+													</div>
+
+													<!-- Ползунок 3: Срок кредита -->
+													<div class="calculator-parameter-item">
+														<div class="calculator-parameter-item__group">
+															<p class="calculator-parameter-item__name">Срок кредита</p>
+															<div class="calculator-parameter-item__data">
+																<span id="term-value">30</span> <span class="currency">лет</span>
+															</div>
+														</div>
+														<div class="calculator-parameter-item__range">
+															<div id="slider-term"
+																class="custom-slider ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+																<div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"
+																	style="width: 100%;"></div><span tabindex="0"
+																	class="ui-slider-handle ui-corner-all ui-state-default" style="left: 100%;"></span>
+															</div>
+															<div class="range-labels">
+																<span class="from">от <span id="term-from-label">30</span>
+																	года</span>
+																<span class="to">до <span id="term-to-label">30</span>
+																	лет</span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="calculator__right">
+												<div class="calculator__items">
+													<div class="calculator__item">
+														<p class="calculator__label">Ежемесячный платеж</p>
+														<p class="calculator__data"><span id="monthly-payment">79
+																184</span> ₽</p>
+													</div>
+													<div class="calculator__item">
+														<p class="calculator__label">Ставка</p>
+														<p class="calculator__data"><span id="interest-rate">8.0</span>%
+														</p>
+													</div>
+												</div>
+												<button class="btn-accent calculator__request">Оформить заявку</button>
+											</div>
+										</div>
+										<div class="calculator__bottom">
+											<p class="calculator__details">Расчет не является публичной офертой*</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project-description">
+			<div class="container">
+				<div class="project-description__text text">
+					<h2>Описание проекта</h2>
+					<p>Мы занимаемся строительством загородных домов под ключ в Татарстане с 2019 года. За 7 лет работы мы сдали
+						более 300 объектов - от компактных дачных домиков до просторных коттеджей для круглогодичного проживания. В
+						нашем штате 8 постоянных бригад, что позволяет нам работать одновременно на нескольких объектах без потери
+						качества. Мы строим дома по трём технологиям на выбор: керамзит, газобетон и клееный брус.</p>
+
+					<h3>Заголовок</h3>
+					<p>Мы занимаемся строительством загородных домов под ключ в Татарстане с 2019 года. За 7 лет работы мы сдали
+						более 300 объектов - от компактных дачных домиков до просторных коттеджей для круглогодичного проживания. В
+						нашем штате 8 постоянных бригад, что позволяет нам работать одновременно на нескольких объектах без потери
+						качества. Мы строим дома по трём технологиям на выбор: керамзит, газобетон и клееный брус.</p>
+
+					<h4>Заголовок</h4>
+					<p>Мы занимаемся строительством загородных домов под ключ в Татарстане с 2019 года. За 7 лет работы мы сдали
+						более 300 объектов - от компактных дачных домиков до просторных коттеджей для круглогодичного проживания. В
+						нашем штате 8 постоянных бригад, что позволяет нам работать одновременно на нескольких объектах без потери
+						качества. Мы строим дома по трём технологиям на выбор: керамзит, газобетон и клееный брус.</p>
+
+					<h5>Заголовок</h5>
+					<p>Мы занимаемся строительством загородных домов под ключ в Татарстане с 2019 года. За 7 лет работы мы сдали
+						более 300 объектов - от компактных дачных домиков до просторных коттеджей для круглогодичного проживания. В
+						нашем штате 8 постоянных бригад, что позволяет нам работать одновременно на нескольких объектах без потери
+						качества. Мы строим дома по трём технологиям на выбор: керамзит, газобетон и клееный брус.</p>
+					<ul>
+						<li>
+							Пункт
+						</li>
+						<li>
+							Пункт
+						</li>
+						<li>
+							Пункт
+						</li>
+					</ul>
+					<ol>
+						<li>
+							Пункт
+						</li>
+						<li>
+							Пункт
+						</li>
+						<li>
+							Пункт
+						</li>
+					</ol>
+				</div>
+			</div>
+		</section>
+
+		<section class="section banner">
+			<div class="container">
+				<div class="banner__block">
+					<div class="banner__logo">
+						<div class="icon">
+							<img src="img/banner/logo.svg" alt="лого">
+						</div>
+					</div>
+					<div class="banner__desc">
+						<h2 class="banner__title item-title">Как выгодно
+							купить дом?</h2>
+						<div class="banner__group">
+							<button class="btn-accent banner__btn">Получить консультацию</button>
+							<div class="banner__text text">
+								<p>Узнайте об условиях покупки, акциях и ипотечных программах</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section faq">
+			<div class="container">
+				<div class="faq__block">
+					<div class="faq__header">
+						<div class="tag-logo">
+							<div class="tag-logo__icon">
+								<div class="icon">
+									<img src="img/interface/tag-logo.svg" alt="лого">
+								</div>
+							</div>
+							<p class="tag-logo__text">FAQ</p>
+						</div>
+						<h2 class="section-title faq__title">Часто задаваемые вопросы</h2>
+					</div>
+					<div class="faq__content block">
+						<div class="accordion">
+							<div class="accordion__item accordion__item_show">
+								<div class="accordion__header">
+									<p class="accordion__name">Сколько времени занимает строительство дома?</p>
+									<div class="accordion__btn">
+										<div class="icon">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M12 17V7M7 12H17" stroke="#2F444E" stroke-width="1.5" stroke-linecap="round" />
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div class="accordion__body">
+									<div class="accordion__text text">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi assumenda
+											illo ea saepe facere, repudiandae rerum corrupti at deleniti, nisi neque!
+											Error ratione laudantium dolorem eius! Itaque officia error ex?</p>
+									</div>
+								</div>
+							</div>
+							<div class="accordion__item">
+								<div class="accordion__header">
+									<p class="accordion__name">Работаете ли вы по Эскроу-счетам?</p>
+									<div class="accordion__btn">
+										<div class="icon">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M12 17V7M7 12H17" stroke="#2F444E" stroke-width="1.5" stroke-linecap="round" />
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div class="accordion__body">
+									<div class="accordion__text text">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi assumenda
+											illo ea saepe facere,
+											repudiandae rerum corrupti at deleniti, nisi neque! Error ratione laudantium
+											dolorem eius! Itaque
+											officia error ex?</p>
+									</div>
+								</div>
+							</div>
+							<div class="accordion__item">
+								<div class="accordion__header">
+									<p class="accordion__name">Работаете ли вы по Эскроу-счетам?</p>
+									<div class="accordion__btn">
+										<div class="icon">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M12 17V7M7 12H17" stroke="#2F444E" stroke-width="1.5" stroke-linecap="round" />
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div class="accordion__body">
+									<div class="accordion__text text">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi assumenda
+											illo ea saepe facere,
+											repudiandae rerum corrupti at deleniti, nisi neque! Error ratione laudantium
+											dolorem eius! Itaque
+											officia error ex?</p>
+									</div>
+								</div>
+							</div>
+							<div class="accordion__item">
+								<div class="accordion__header">
+									<p class="accordion__name">Работаете ли вы по Эскроу-счетам?</p>
+									<div class="accordion__btn">
+										<div class="icon">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M12 17V7M7 12H17" stroke="#2F444E" stroke-width="1.5" stroke-linecap="round" />
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div class="accordion__body">
+									<div class="accordion__text text">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi assumenda
+											illo ea saepe facere,
+											repudiandae rerum corrupti at deleniti, nisi neque! Error ratione laudantium
+											dolorem eius! Itaque
+											officia error ex?</p>
+									</div>
+								</div>
+							</div>
+							<div class="accordion__item">
+								<div class="accordion__header">
+									<p class="accordion__name">Работаете ли вы по Эскроу-счетам?</p>
+									<div class="accordion__btn">
+										<div class="icon">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M12 17V7M7 12H17" stroke="#2F444E" stroke-width="1.5" stroke-linecap="round" />
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div class="accordion__body">
+									<div class="accordion__text text">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi assumenda
+											illo ea saepe facere,
+											repudiandae rerum corrupti at deleniti, nisi neque! Error ratione laudantium
+											dolorem eius! Itaque
+											officia error ex?</p>
+									</div>
+								</div>
+							</div>
+							<div class="accordion__item">
+								<div class="accordion__header">
+									<p class="accordion__name">Работаете ли вы по Эскроу-счетам?</p>
+									<div class="accordion__btn">
+										<div class="icon">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M12 17V7M7 12H17" stroke="#2F444E" stroke-width="1.5" stroke-linecap="round" />
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div class="accordion__body">
+									<div class="accordion__text text">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi assumenda
+											illo ea saepe facere,
+											repudiandae rerum corrupti at deleniti, nisi neque! Error ratione laudantium
+											dolorem eius! Itaque
+											officia error ex?</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section projects-slider">
+			<div class="container">
+				<div class="projects-slider__block">
+					<div class="projects-slider__header">
+						<h2 class="section-title projects-slider__title">Другие проекты</h2>
+						<div class="projects-slider__arrows slider-arrows">
+							<div class="projects-slider__prev swiper-button-prev">
+								<div class="icon">
+									<svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M5.59715e-06 12.7302C-0.000303958 12.6316 0.0190708 12.534 0.0569935 12.4431C0.0949163 12.3521 0.150623 12.2696 0.220844 12.2005L5.69949 6.73916L0.238145 1.26052C0.10589 1.11814 0.0340637 0.929976 0.0377989 0.73568C0.0415342 0.541385 0.12054 0.356124 0.25817 0.218929C0.395801 0.0817333 0.58131 0.00331486 0.775616 0.00019393C0.969923 -0.002927 1.15785 0.0694932 1.29982 0.202198L7.29032 6.21168C7.43055 6.35253 7.50914 6.54328 7.50882 6.74203C7.50851 6.94078 7.42932 7.13127 7.28865 7.27168L1.27917 13.2622C1.13832 13.4024 0.94757 13.481 0.74882 13.4807C0.550069 13.4804 0.359571 13.4012 0.219167 13.2605C0.149165 13.1912 0.09372 13.1085 0.0560852 13.0174C0.0184503 12.9264 -0.000615632 12.8287 5.59715e-06 12.7302Z"
+											fill="#2F444E" />
+									</svg>
+								</div>
+							</div>
+							<div class="projects-slider__next swiper-button-next">
+								<div class="icon">
+									<svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M5.59715e-06 12.7302C-0.000303958 12.6316 0.0190708 12.534 0.0569935 12.4431C0.0949163 12.3521 0.150623 12.2696 0.220844 12.2005L5.69949 6.73916L0.238145 1.26052C0.10589 1.11814 0.0340637 0.929976 0.0377989 0.73568C0.0415342 0.541385 0.12054 0.356124 0.25817 0.218929C0.395801 0.0817333 0.58131 0.00331486 0.775616 0.00019393C0.969923 -0.002927 1.15785 0.0694932 1.29982 0.202198L7.29032 6.21168C7.43055 6.35253 7.50914 6.54328 7.50882 6.74203C7.50851 6.94078 7.42932 7.13127 7.28865 7.27168L1.27917 13.2622C1.13832 13.4024 0.94757 13.481 0.74882 13.4807C0.550069 13.4804 0.359571 13.4012 0.219167 13.2605C0.149165 13.1912 0.09372 13.1085 0.0560852 13.0174C0.0184503 12.9264 -0.000615632 12.8287 5.59715e-06 12.7302Z"
+											fill="#2F444E" />
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="projects-slider__slider swiper block">
+						<div class="swiper-wrapper">
+							<div class="projects-slider__slide swiper-slide">
+								<div class="project-card item">
+									<a href="#" class="project-card__link item-link"></a>
+									<div class="project-card__top">
+										<div class="project-card__image">
+											<div class="box">
+												<img src="img/project-card/image-1.jpg" alt="фото">
+											</div>
+										</div>
+									</div>
+									<div class="project-card__desc">
+										<div class="project-card__group">
+											<p class="project-card__name name">Дом в Москве</p>
+											<div class="project-card__items">
+												<div class="project-card-item">
+													<div class="project-card-item__icon">
+														<div class="box">
+															<img src="img/project-card/icon-1.svg" alt="иконка">
+														</div>
+													</div>
+													<p class="project-card-item__text">Клееный брус</p>
+												</div>
+												<div class="project-card-item">
+													<div class="project-card-item__icon">
+														<div class="box">
+															<img src="img/project-card/icon-2.svg" alt="иконка">
+														</div>
+													</div>
+													<p class="project-card-item__text">63 кв.м²</p>
+												</div>
+												<div class="project-card-item">
+													<div class="project-card-item__icon">
+														<div class="box">
+															<img src="img/project-card/icon-3.svg" alt="иконка">
+														</div>
+													</div>
+													<p class="project-card-item__text">6 комнат</p>
+												</div>
+											</div>
+											<div class="project-card__price name">
+												<p>От 6 млн</p>
+												<div class="icon">
+													<svg width="31" height="31" viewBox="0 0 31 31" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M12.7321 8.41448V15.0573H15.2775C17.6401 15.0573 18.8214 13.7642 18.8214 11.7232C18.8214 9.69489 17.6401 8.41448 15.2896 8.41448H12.7321ZM16.0076 17.3469H12.8113V19.7738H17.6661V21.187H12.8113V23.9145H10.1353V21.187H7.75V19.7738H10.1353V17.3469H7.75V15.9204H10.1353V6.2002H16.0923C19.4221 6.2002 21.5893 8.57723 21.5893 11.7924C21.5893 14.9948 19.3733 17.3469 16.0076 17.3469Z"
+															fill="#3D6C00" />
+													</svg>
+												</div>
+											</div>
+										</div>
+										<a href="#" class="project-card__btn btn-border">Подробнее о проекте</a>
+									</div>
+								</div>
+							</div>
+							<div class="projects-slider__slide swiper-slide">
+								<div class="project-card item">
+									<a href="#" class="project-card__link item-link"></a>
+									<div class="project-card__top">
+										<div class="project-card__image">
+											<div class="box">
+												<img src="img/project-card/image-2.jpg" alt="фото">
+											</div>
+										</div>
+									</div>
+									<div class="project-card__desc">
+										<div class="project-card__group">
+											<p class="project-card__name name">Дом в Москве</p>
+											<div class="project-card__items">
+												<div class="project-card-item">
+													<div class="project-card-item__icon">
+														<div class="box">
+															<img src="img/project-card/icon-1.svg" alt="иконка">
+														</div>
+													</div>
+													<p class="project-card-item__text">Клееный брус</p>
+												</div>
+												<div class="project-card-item">
+													<div class="project-card-item__icon">
+														<div class="box">
+															<img src="img/project-card/icon-2.svg" alt="иконка">
+														</div>
+													</div>
+													<p class="project-card-item__text">63 кв.м²</p>
+												</div>
+												<div class="project-card-item">
+													<div class="project-card-item__icon">
+														<div class="box">
+															<img src="img/project-card/icon-3.svg" alt="иконка">
+														</div>
+													</div>
+													<p class="project-card-item__text">6 комнат</p>
+												</div>
+											</div>
+											<div class="project-card__price name">
+												<p>От 6 млн</p>
+												<div class="icon">
+													<svg width="31" height="31" viewBox="0 0 31 31" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M12.7321 8.41448V15.0573H15.2775C17.6401 15.0573 18.8214 13.7642 18.8214 11.7232C18.8214 9.69489 17.6401 8.41448 15.2896 8.41448H12.7321ZM16.0076 17.3469H12.8113V19.7738H17.6661V21.187H12.8113V23.9145H10.1353V21.187H7.75V19.7738H10.1353V17.3469H7.75V15.9204H10.1353V6.2002H16.0923C19.4221 6.2002 21.5893 8.57723 21.5893 11.7924C21.5893 14.9948 19.3733 17.3469 16.0076 17.3469Z"
+															fill="#3D6C00" />
+													</svg>
+												</div>
+											</div>
+										</div>
+										<a href="#" class="project-card__btn btn-border">Подробнее о проекте</a>
+									</div>
+								</div>
+							</div>
+							<div class="projects-slider__slide swiper-slide">
+								<div class="project-card item">
+									<a href="#" class="project-card__link item-link"></a>
+									<div class="project-card__top">
+										<div class="project-card__image">
+											<div class="box">
+												<img src="img/project-card/image-2.jpg" alt="фото">
+											</div>
+										</div>
+									</div>
+									<div class="project-card__desc">
+										<div class="project-card__group">
+											<p class="project-card__name name">Дом в Москве</p>
+											<div class="project-card__items">
+												<div class="project-card-item">
+													<div class="project-card-item__icon">
+														<div class="box">
+															<img src="img/project-card/icon-1.svg" alt="иконка">
+														</div>
+													</div>
+													<p class="project-card-item__text">Клееный брус</p>
+												</div>
+												<div class="project-card-item">
+													<div class="project-card-item__icon">
+														<div class="box">
+															<img src="img/project-card/icon-2.svg" alt="иконка">
+														</div>
+													</div>
+													<p class="project-card-item__text">63 кв.м²</p>
+												</div>
+												<div class="project-card-item">
+													<div class="project-card-item__icon">
+														<div class="box">
+															<img src="img/project-card/icon-3.svg" alt="иконка">
+														</div>
+													</div>
+													<p class="project-card-item__text">6 комнат</p>
+												</div>
+											</div>
+											<div class="project-card__price name">
+												<p>От 6 млн</p>
+												<div class="icon">
+													<svg width="31" height="31" viewBox="0 0 31 31" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M12.7321 8.41448V15.0573H15.2775C17.6401 15.0573 18.8214 13.7642 18.8214 11.7232C18.8214 9.69489 17.6401 8.41448 15.2896 8.41448H12.7321ZM16.0076 17.3469H12.8113V19.7738H17.6661V21.187H12.8113V23.9145H10.1353V21.187H7.75V19.7738H10.1353V17.3469H7.75V15.9204H10.1353V6.2002H16.0923C19.4221 6.2002 21.5893 8.57723 21.5893 11.7924C21.5893 14.9948 19.3733 17.3469 16.0076 17.3469Z"
+															fill="#3D6C00" />
+													</svg>
+												</div>
+											</div>
+										</div>
+										<a href="#" class="project-card__btn btn-border">Подробнее о проекте</a>
+									</div>
+								</div>
+							</div>
+							<div class="projects-slider__slide swiper-slide">
+								<div class="project-card item">
+									<a href="#" class="project-card__link item-link"></a>
+									<div class="project-card__top">
+										<div class="project-card__image">
+											<div class="box">
+												<img src="img/project-card/image-1.jpg" alt="фото">
+											</div>
+										</div>
+										<div class="project-card__labels labels">
+											<div class="label label--dark">
+												<span>ТОП №1</span>
+											</div>
+										</div>
+									</div>
+									<div class="project-card__desc">
+										<div class="project-card__group">
+											<p class="project-card__name name">Дом в Москве</p>
+											<div class="project-card__items">
+												<div class="project-card-item">
+													<div class="project-card-item__icon">
+														<div class="box">
+															<img src="img/project-card/icon-1.svg" alt="иконка">
+														</div>
+													</div>
+													<p class="project-card-item__text">Клееный брус</p>
+												</div>
+												<div class="project-card-item">
+													<div class="project-card-item__icon">
+														<div class="box">
+															<img src="img/project-card/icon-2.svg" alt="иконка">
+														</div>
+													</div>
+													<p class="project-card-item__text">63 кв.м²</p>
+												</div>
+												<div class="project-card-item">
+													<div class="project-card-item__icon">
+														<div class="box">
+															<img src="img/project-card/icon-3.svg" alt="иконка">
+														</div>
+													</div>
+													<p class="project-card-item__text">6 комнат</p>
+												</div>
+											</div>
+											<div class="project-card__price name">
+												<p>От 6 млн</p>
+												<div class="icon">
+													<svg width="31" height="31" viewBox="0 0 31 31" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M12.7321 8.41448V15.0573H15.2775C17.6401 15.0573 18.8214 13.7642 18.8214 11.7232C18.8214 9.69489 17.6401 8.41448 15.2896 8.41448H12.7321ZM16.0076 17.3469H12.8113V19.7738H17.6661V21.187H12.8113V23.9145H10.1353V21.187H7.75V19.7738H10.1353V17.3469H7.75V15.9204H10.1353V6.2002H16.0923C19.4221 6.2002 21.5893 8.57723 21.5893 11.7924C21.5893 14.9948 19.3733 17.3469 16.0076 17.3469Z"
+															fill="#3D6C00" />
+													</svg>
+												</div>
+											</div>
+										</div>
+										<a href="#" class="project-card__btn btn-border">Подробнее о проекте</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="projects-slider__pagination swiper-pagination slider-pagination"></div>
+					</div>
+					<div class="projects__bottom">
+						<a href="#" class="projects__btn btn-border">
+							<span>Посмотреть все проекты</span>
+							<span class="icon">
+								<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M11.9918 17.7311C11.9915 17.6326 12.0108 17.535 12.0488 17.444C12.0867 17.3531 12.1424 17.2706 12.2126 17.2015L17.6912 11.7401L12.2299 6.2615C12.0976 6.11911 12.0258 5.93095 12.0296 5.73666C12.0333 5.54236 12.1123 5.3571 12.2499 5.21991C12.3876 5.08271 12.5731 5.00429 12.7674 5.00117C12.9617 4.99805 13.1496 5.07047 13.2916 5.20317L19.2821 11.2127C19.4223 11.3535 19.5009 11.5443 19.5006 11.743C19.5003 11.9418 19.4211 12.1323 19.2804 12.2727L13.2709 18.2632C13.1301 18.4034 12.9393 18.482 12.7406 18.4817C12.5418 18.4813 12.3513 18.4022 12.2109 18.2615C12.1409 18.1921 12.0855 18.1095 12.0478 18.0184C12.0102 17.9273 11.9911 17.8297 11.9918 17.7311Z"
+										fill="#2F444E" />
+									<path
+										d="M4.00127 11.7187C4.00418 11.5205 4.08433 11.3314 4.22464 11.1915C4.36496 11.0517 4.55435 10.9721 4.75246 10.9698L18.7524 10.992C18.9514 10.9923 19.142 11.0716 19.2824 11.2125C19.4229 11.3534 19.5016 11.5443 19.5013 11.7432C19.5009 11.9421 19.4216 12.1327 19.2807 12.2731C19.1399 12.4136 18.949 12.4923 18.7501 12.492L4.75009 12.4698C4.55199 12.4669 4.36285 12.3868 4.22297 12.2465C4.0831 12.1062 4.00355 11.9168 4.00127 11.7187Z"
+										fill="#2F444E" />
+								</svg>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section contacts">
+			<div class="container">
+				<div class="contacts__block">
+					<div class="contacts__left">
+						<div class="contacts__top">
+							<h2 class="section-title contacts__title">Контакты</h2>
+							<div class="contacts__list">
+								<div class="contacts__item">
+									<div class="contacts__icon">
+										<div class="box">
+											<img src="img/contacts/mail.svg" alt="mail">
+										</div>
+									</div>
+									<a href="mailto:mail@gmail.com" class="contacts__link">mail@gmail.com</a>
+								</div>
+								<div class="contacts__item">
+									<div class="contacts__icon">
+										<div class="box">
+											<img src="img/contacts/phone.svg" alt="mail">
+										</div>
+									</div>
+									<a href="tel:+70000000000" class="contacts__link">+7 000 000-00-00</a>
+								</div>
+								<div class="contacts__item">
+									<div class="contacts__icon">
+										<div class="box">
+											<img src="img/contacts/marker-pin.svg" alt="mail">
+										</div>
+									</div>
+									<p class="contacts__link">город Название, ул. Название, 1</p>
+								</div>
+							</div>
+							<p class="contacts__schedule">Режим работы:<br>
+								Ежедневно, без выходных<br>
+								с 10:00 до 20:00</p>
+						</div>
+						<div class="contacts__bottom">
+							<p class="contacts__text">Подпишиcь<br>
+								на наши каналы</p>
+							<div class="contacts__socials socials">
+								<a href="#" target="_blank" class="social">
+									<span class="box">
+										<img src="img/interface/max.svg" alt="max">
+									</span>
+								</a>
+								<a href="#" target="_blank" class="social">
+									<span class="box">
+										<img src="img/interface/tg.svg" alt="telegram">
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="contacts__map" id="map">
+						<iframe
+							src="https://yandex.ru/map-widget/v1/?um=constructor%3Ace98b7d515a92e7627897d92efdaeb635a2b9ce24cfb0585e5474926aa5cc4b0&amp;source=constructor"
+							frameborder="0"></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="request section">
+			<div class="container">
+				<div class="request__block">
+					<div class="request__content">
+						<h2 class="request__title">Оставьте свои контакты</h2>
+						<div class="request__text text">
+							<p>наши сотрудники свяжутся с вами и ответят на все ваши вопросы</p>
+						</div>
+						<div class="request-form">
+							<div class="request-form__inputs">
+								<div class="request-form__input">
+									<input type="text" class="input" placeholder="Имя*">
+								</div>
+								<div class="request-form__input">
+									<input type="text" class="input tel" placeholder="Телефон*">
+								</div>
+								<div class="request-form__input">
+									<input type="text" class="input" placeholder="Email">
+								</div>
+							</div>
+							<div class="request-form__privacy checkbox-privacy">
+								<label for="privacy-1">Даю <a href="#" target="_blank">Cогласие</a> на обработку
+									персональных данных
+									в соответствии с <a href="#" target="_blank">Политикой</a> обработки персональных
+									данных
+									<input type="checkbox" name="privacy-1" id="privacy-1" checked>
+								</label>
+							</div>
+							<button class="request-form__btn btn-accent">Рассчитать стоимость</button>
+						</div>
+					</div>
+					<div class="request__image">
+						<div class="box">
+							<img src="img/request/image.jpg" alt="фото">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+	@@include('html/footer.html', {})
+	<script src="js/app.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+		integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

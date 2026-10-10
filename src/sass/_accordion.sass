@@ -1,0 +1,10 @@
+.accordion
+	&__item
+		&_show, &_slidedown
+			.accordion
+				&__header
+					svg
+						transform: rotate(45deg)
+
+.accordion__item:not(.accordion__item_show) .accordion__body
+	display: none

@@ -1,0 +1,506 @@
+.container
+	max-width: var(--container-desktop)
+	width: 100%
+	margin: 0 auto
+
+.box
+	position: relative
+	overflow: hidden
+	+center
+	img, picture, svg, video
+		width: 100%
+		height: 100%
+		object-fit: cover
+
+.icon
+	display: flex
+	svg, img
+		width: 100%
+
+.item
+	position: relative
+	border-radius: var(--main-radius)
+	&-link
+		position: absolute
+		width: 100%
+		height: 100%
+		top: 0
+		left: 0
+		z-index: 1
+
+.section
+	padding: 5rem 0
+	&-pb
+		padding-bottom: 5rem
+	&-first
+		margin-top: 9.375rem
+	&-mt
+		margin-top: 5rem
+
+.block
+	margin-top: 3.75rem
+
+.tags
+	display: flex
+	flex-wrap: wrap
+	gap: .9375rem
+
+.tag
+	padding: .9375rem 1.25rem
+	border-radius: var(--btn-radius)
+	font-size: .9375rem
+	+semi
+	line-height: 1
+	&--border
+		border: .0625rem solid var(--color-main)
+		color: var(--color-main)
+	&-logo
+		+center-stroke
+		gap: 1.5625rem
+		font-size: .75rem
+		line-height: 1
+		padding: .375rem 1.5625rem .375rem .5rem
+		border-radius: var(--btn-radius)
+		background-color: var(--color-bg-gray)
+		margin-bottom: 1.875rem
+		&__icon
+			background-color: var(--color-bg-dark)
+			border-radius: .3125rem
+			+center
+			padding: .375rem .625rem .375rem .875rem
+			.icon
+				width: 2rem
+
+// buttons 
+.btn-light
+	border: none
+	background-color: var(--color-bg-main)
+	line-height: 1
+	color: var(--color-main)
+	font-size: .9375rem
+	padding: 0 2rem
+	border-radius: var(--btn-radius)
+	+center
+	gap: .625rem
+	min-height: 3.375rem
+	+semi
+	&:hover
+		background-color: var(--color-hover)
+		color: #fff
+
+.btn-border
+	border: .0625rem solid var(--color-main)
+	background-color: transparent
+	line-height: 1
+	color: var(--color-main)
+	font-size: .9375rem
+	padding: 0 2rem
+	border-radius: var(--btn-radius)
+	+center
+	gap: .625rem
+	min-height: 3.375rem
+	+semi
+	&:hover
+		border-color: var(--color-hover)
+		color: var(--color-hover)
+		svg
+			path
+				fill: var(--color-hover)
+
+.btn-accent
+	border: none
+	background-color: var(--color-accent)
+	line-height: 1
+	color: var(--color-light)
+	font-size: .9375rem
+	padding: 0 1.5625rem
+	border-radius: var(--btn-radius)
+	+center
+	gap: .625rem
+	min-height: 3.75rem
+	+semi
+	&:hover
+		background-color: var(--color-hover)
+
+// labels
+.labels
+	display: flex
+	flex-wrap: wrap
+	gap: .9375rem
+
+.label
+	padding: .625rem .9375rem
+	font-size: .875rem
+	text-transform: uppercase
+	line-height: 1
+	+semi
+	border-radius: .5rem
+	&--dark
+		color: var(--color-light)
+		background-color: var(--color-bg-dark)
+	&--accent
+		background-color: var(--color-accent)
+		color: var(--color-light)
+	&--suburban
+		background-color: #BECB07
+		color: var(--color-light)
+	&--promotion
+		background-color: #4665CA
+		color: var(--color-light)
+	&--sell
+		background-color: #C85254
+		color: var(--color-light)
+// form elements
+.input, .textarea
+	width: 100%
+	display: block
+	padding: 0 1.5rem
+	border-radius: var(--btn-radius)
+	font-size: .9375rem
+	background-color: #fff
+	letter-spacing: 0.01em
+	border: none
+	transition: 0.3s ease
+	color: var(--color-main)
+	&::placeholder
+		opacity: 1
+		color: #8B8B8B
+		transition: 0.3s ease
+	&::-webkit-input-placeholder
+		opacity: 1
+		color: #8B8B8B
+		transition: 0.3s ease
+	&::-moz-placeholder
+		opacity: 1
+		color: #8B8B8B
+		transition: 0.3s ease
+	&:-ms-input-placeholder
+		opacity: 1
+		color: #8B8B8B
+		transition: 0.3s ease
+
+.input
+	height: 3.375rem
+	width: 100%
+
+.textarea
+	height: 11.25rem
+	padding: 1rem 1.25rem
+
+.radio-btn
+	label
+		height: auto
+		background-color: transparent
+		padding: 0
+		border-radius: 0
+		padding: 0
+		margin: 0
+		border: none
+		color: var(--color-text-muted)
+		font-family: var(--font-main)
+		transition: 0.3s ease
+		letter-spacing: 0.04em
+		text-align: left
+		+center-stroke
+		.ui-checkboxradio-icon-space
+			min-width: .5rem
+			display: inline-block
+		.ui-checkboxradio-icon
+			min-width: 1.1875rem
+			height: 1.1875rem
+			margin: 0
+			padding: 0
+			box-shadow: inset 0px 0px .25rem rgba(64, 121, 159, 0.15)
+			border: .0625rem solid var(--color-border-dark)
+		&.ui-checkboxradio-checked
+			.ui-icon
+				width: 1.1875rem
+				height: 1.1875rem
+				background-color: transparent
+				border: .0625rem solid var(--color-border-dark)
+				&::before
+					content: ''
+					position: absolute
+					top: 0
+					left: 0
+					right: 0
+					bottom: 0
+					margin: auto
+					background-color: var(--color-bg-dark)
+					border-radius: 50%
+					width: .6875rem
+					height: .6875rem
+			&:hover
+				.ui-icon
+					width: 1.1875rem
+					height: 1.1875rem
+					background-color: transparent
+					border: .0625rem solid var(--color-border-dark)
+					&::before
+						content: ''
+						position: absolute
+						top: 0
+						left: 0
+						right: 0
+						bottom: 0
+						margin: auto
+						background-color: var(--color-bg-dark)
+						border-radius: 50%
+						width: .6875rem
+						height: .6875rem
+		&.ui-visual-focus
+			box-shadow: none
+		&.ui-state-active
+			background-color: transparent
+			color: var(--color-text-main)
+			&:hover
+				background-color: transparent
+				color: var(--color-text-main)
+				border: none
+			.color
+				border-color: var(--color-border-dark)
+		&:hover
+			background-color: transparent
+			color: var(--color-text-main)
+			border: none
+	&-noicon
+		label
+			height: 3.375rem
+			background-color: var(--color-bg-gray)
+			letter-spacing: 0.02em
+			color: var(--color-text-muted)
+			padding: 0
+			border-radius: 0
+			+center
+			padding: 0 1rem
+			margin: 0
+			border: none
+			&.ui-checkboxradio-checked
+				background-color: var(--color-bg-dark)
+				color: var(--color-text-light)
+			&.ui-visual-focus
+				box-shadow: none
+			&.ui-state-active
+				background-color: var(--color-bg-dark)
+				color: var(--color-text-light)
+				&:hover
+					background-color: var(--color-bg-dark)
+					color: var(--color-text-light)
+					border: none
+			&:hover
+				background-color: var(--color-primary)
+				color: var(--color-text-light)
+				border: none
+
+.checkbox
+	label
+		margin: 0
+		padding: 0
+		background: transparent
+		border: none
+		border-radius: 0
+		color: var(--color-text-muted)
+		display: flex
+		align-items: center
+		gap: .5rem
+		line-height: 1
+		transition: 0.3s ease
+		font-family: var(--font-main)
+		letter-spacing: 0.04em
+		&:hover
+			border: none
+			color: var(--color-text-muted)
+			background-color: transparent
+		&.ui-state-focus
+			box-shadow: none
+		.ui-checkboxradio-icon-space
+			display: none
+		.ui-checkboxradio-icon
+			width: 1.25rem
+			height: 1.25rem
+			border-radius: 0
+			box-shadow: 0px 0px .25rem 0px rgba(64, 121, 159, 0.15) inset
+			border: none
+			background-color: var(--color-bg-gray)
+			margin: 0
+		&.ui-state-active
+			.ui-checkboxradio-icon
+				background-color: #101F38
+				background-image: url(../img/interface/check.svg)
+				background-position: center
+				background-repeat: no-repeat
+				background-size: 70%
+			&:hover
+				border: none
+				color: var(--color-text-muted)
+				background-color: transparent
+
+.checkbox-privacy
+	label
+		margin: 0
+		padding: 0
+		background: transparent
+		border: none
+		border-radius: 0
+		color: #F4F4F4
+		line-height: 1.3
+		font-size: .9375rem
+		transition: 0.3s ease
+		font-family: var(--font-main)
+		text-align: left
+		a
+			color: #F4F4F4
+			text-decoration: underline
+		&:hover
+			border: none
+			color: #F4F4F4
+			background-color: transparent
+			a
+				color: #F4F4F4
+				text-decoration: underline
+		&.ui-state-focus
+			box-shadow: none
+			a
+				color: #F4F4F4
+				text-decoration: underline
+			&:hover
+				a
+					color: #F4F4F4
+					text-decoration: underline
+		.ui-checkboxradio-icon-space
+			display: inline-block
+			width: .75rem
+		.ui-checkboxradio-icon
+			width: 1.25rem
+			height: 1.25rem
+			border-radius: .25rem
+			box-shadow: none
+			border: .0625rem solid #F4F4F4
+			background-color: transparent
+			margin: 0
+			display: inline-block
+		&.ui-state-active
+			color: #F4F4F4
+			a
+				color: #F4F4F4
+				text-decoration: underline
+			.ui-checkboxradio-icon
+				background-color: transparent
+				border: none
+				background-image: url(../img/request/check-active.svg)
+				background-position: center
+				background-repeat: no-repeat
+				background-size: 100%
+			&:hover
+				border: none
+				color: var(--color-text-main)
+				background-color: transparent
+				a
+					color: var(--color-primary)
+					text-decoration: underline
+
+// slider elements
+.slider-arrows
+	display: flex
+	gap: 1.25rem
+
+.slider-pagination
+	line-height: 0
+	.swiper-pagination-bullet
+		width: .5625rem
+		height: .5625rem
+		background-color: var(--color-bg-gray)
+		margin: 0 .3125rem !important
+		opacity: 1
+		&-active
+			background-color: var(--color-accent)
+
+.swiper-button-prev, .swiper-button-next
+	cursor: pointer
+	width: 3.125rem
+	height: 3.125rem
+	transition: 0.3s ease
+	background-color: var(--color-bg-gray)
+	border-radius: 50%
+	margin: 0
+	+center
+	.icon, .box
+		width: .5rem
+		height: auto
+	&::after
+		display: none
+	&:hover
+		background-color: var(--color-accent)
+		svg
+			path
+				fill: #fff
+.swiper-button-prev
+	transform: rotate(180deg)
+
+.socials
+	display: flex
+	flex-wrap: wrap
+	gap: .9375rem
+.social
+	width: 2.5rem
+	.box
+		width: 100%
+
+.wpcf7-not-valid-tip
+	display: none
+.pum-close
+	display: none
+.input.wpcf7-not-valid
+	border: .0625rem solid #dc3232
+.wpcf7-response-output
+	display: none
+.wpcf7-form-control-wrap
+	width: 100%
+
+.scroll-socials
+	position: fixed
+	display: flex
+	flex-direction: column
+	bottom: 1.875rem
+	right: 1.875rem
+	gap: .9375rem
+	z-index: 15
+.scroll__social
+	display: flex
+	justify-content: center
+	align-items: center
+	width: 3.125rem
+	height: 3.125rem
+	overflow: hidden
+	background-color: #2F444E
+	border-radius: 100%
+	&:hover
+		background-color: var(--color-accent)
+	.icon
+		width: 1.875rem
+		height: 1.875rem
+		svg
+			width: 100%
+			height: 100%
+
+@media (max-width: 991.98px)
+	.container
+		padding: var(--container-padding)
+	.section
+		&-first
+			margin-top: 14.25rem
+
+@media (max-width: 575.98px)
+	.section
+		padding: 3.125rem 0
+		&-pb
+			padding-bottom: 3.125rem
+		&-first
+			margin-top: 13.375rem
+		&-mt
+			margin-top: 3.125rem
+	.block
+		margin-top: 2.5rem
+	.checkbox-privacy
+		label
+			font-size: .875rem

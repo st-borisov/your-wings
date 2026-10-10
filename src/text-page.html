@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+@@include('html/head.html', {
+"title": "Текстовая страница"
+})
+
+<body class="bd">
+	@@include('html/header.html', {})
+	<main>
+
+		<!-- Пагинация -->
+		<div class="breadcrumbs">
+			<div class="container-two">
+				<div class="breadcrumbs__block" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+					<span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a href="" itemprop="item">
+							<span class="breadcrumbs-link" itemprop="name">Главная</span>
+							<meta itemprop="position" content="1">
+						</a>
+					</span>
+					<span class="breadcrumbs-line"></span>
+					<span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<span class="breadcrumbs-title" itemprop="name">Центр психологии</span>
+						<meta itemprop="position" content="2">
+					</span>
+				</div>
+			</div>
+		</div>
+		<!-- end -->
+
+	</main>
+	@@include('html/footer.html', {})
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>

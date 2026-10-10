@@ -1,0 +1,64 @@
+.project-description
+	&__text
+		max-width: 100%
+		width: 100%
+		h2
+			font-size: 3.4375rem
+			line-height: 1
+			+semi
+		h3
+			font-size: 2.625rem
+			line-height: 1
+			+semi
+		h4
+			font-size: 1.5625rem
+			line-height: 1.2
+			+semi
+		h5
+			font-size: 1.5625rem
+			line-height: 1.2
+			+semi
+		p
+			font-size: .9375rem
+			line-height: 150%
+		a
+			text-decoration: underline
+			color: #3D6C00
+		ul
+			padding-left: 0
+			font-size: .9375rem
+			li
+				position: relative
+				padding-left: 1.25rem
+				&::before
+					content: ''
+					min-width: .3125rem
+					max-width: .3125rem
+					height: .3125rem
+					border-radius: 50%
+					background-color: var(--color-main)
+					display: block
+					position: absolute
+					top: .5rem
+					left: 0
+		ol
+			list-style: decimal
+			padding-left: 1.25rem
+			font-size: .9375rem
+			li
+				position: relative
+@media (max-width: 991.98px)
+	.project-description
+		&__text
+			max-width: 100%
+			width: 100%
+			h2
+				font-size: 2.625rem
+			h3
+				font-size: 2rem
+			h4
+				font-size: 1.375rem
+				line-height: 1.2
+				+semi
+			h5
+				font-size: 1.375rem
