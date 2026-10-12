@@ -32,6 +32,21 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 });
 
+const swiper2 = new Swiper('.other-courses__sldier', {
+	loop: true,
+	speed: 600,
+	slidesPerView: 4,
+	spaceBetween: 10,
+	breakpoints: {
+		0: {
+			slidesPerView: 2,
+		},
+		993: {
+			slidesPerView: 4,
+		}
+	}
+});
+
 class ItcTabs {
 	constructor(target, config) {
 		const defaultConfig = {};

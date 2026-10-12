@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+@@include('html/head.html', {
+"title": "Внутренняя страница направления"
+})
+
+<body class="bd">
+	@@include('html/header.html', {})
+	<main>
+		<!-- Пагинация -->
+		<div class="breadcrumbs">
+			<div class="container">
+				<div class="breadcrumbs__block" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+					<span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a href="" itemprop="item">
+							<span class="breadcrumbs-link" itemprop="name">Главная</span>
+							<meta itemprop="position" content="1">
+						</a>
+					</span>
+					<span class="breadcrumbs-line"></span>
+					<span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a href="" itemprop="item">
+							<span class="breadcrumbs-link" itemprop="name">Направления</span>
+							<meta itemprop="position" content="1">
+						</a>
+					</span>
+					<span class="breadcrumbs-line"></span>
+					<span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<span class="breadcrumbs-title" itemprop="name">Одиночество в отношениях</span>
+						<meta itemprop="position" content="2">
+					</span>
+				</div>
+			</div>
+		</div>
+		<!-- end -->
+
+		<!-- Главный экран -->
+		<section class="direction-item-main">
+			<div class="direction-item-main__background">
+				<div class="box">
+					<img src="img/direction-item-main/background.png" alt="Изображение">
+				</div>
+			</div>
+			<div class="direction-item-main__background-mob">
+				<div class="box">
+					<img src="img/direction-item-main/background-mob.png" alt="Изображение">
+				</div>
+			</div>
+			<div class="container">
+				<div class="direction-item-main__block">
+					<h1 class="direction-item-main__title section-title">
+						Одиночество в отношениях
+					</h1>
+					<div class="direction-item-main__text">
+						<p>
+							Мы знаем, как трудно найти опору, когда привычные слова не помогают, а в душе пустота. В нашей школе вы не
+							получите шаблонный совет. Мы сопровождаем вас на пути к теплу в отношениях, опираясь на вашу веру и
+							внутренние ценности. Бережно, профессионально, без осуждения.
+						</p>
+					</div>
+					<button class="direction-item-main__button btn">
+						Написать нам
+					</button>
+				</div>
+			</div>
+		</section>
+		<!-- end -->
+
+		<!-- Рекомендуемые курсы -->
+		<section class="other-courses">
+			<div class="container">
+				<div class="other-courses__header">
+					<h2 class="other-courses__title">
+						Рекомендуем также другие наши курсы:
+					</h2>
+					<a href="" class="other-courses__link">
+						<span class="link-text">
+							Все курсы
+						</span>
+						<span class="link-icon">
+							<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M1.66723 16.8777C1.10091 16.8777 0.641819 17.3137 0.641814 17.8516C0.64181 18.3895 1.1009 18.8255 1.66721 18.8255L1.66722 17.8516L1.66723 16.8777ZM32.085 18.8258C32.6513 18.8258 33.1104 18.3897 33.1104 17.8518C33.1104 17.3139 32.6513 16.8779 32.085 16.8779L32.085 17.8518L32.085 18.8258ZM1.66722 17.8516L1.66721 18.8255L32.085 18.8258L32.085 17.8518L32.085 16.8779L1.66723 16.8777L1.66722 17.8516Z"
+									fill="#80AA83" />
+								<path d="M20.0845 7.81641C21.6141 12.2211 22.8246 16.3235 32.0845 17.8529" stroke="#80AA83"
+									stroke-width="2" stroke-linecap="round" />
+								<path d="M20.085 27.1992C21.6146 23.0973 22.8251 19.2769 32.085 17.8527" stroke="#80AA83"
+									stroke-width="2" stroke-linecap="round" />
+							</svg>
+						</span>
+					</a>
+				</div>
+			</div>
+			<div class="other-courses__block">
+				<div class="swiper other-courses__sldier">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide other-courses__slide">
+							<div class="other-courses-card">
+								<div class="other-courses-card__image">
+									<div class="box">
+										<img src="img/other-courses/image-1.jpg" alt="Изображение">
+									</div>
+								</div>
+								<div class="other-courses-card__info">
+									<p class="other-courses-card__title">
+										Духовность — марафон «Дитя Бога»
+									</p>
+									<p class="other-courses-card__price">
+										5 900 ₽
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide other-courses__slide">
+							<div class="other-courses-card">
+								<div class="other-courses-card__image">
+									<div class="box">
+										<img src="img/other-courses/image-2.jpg" alt="Изображение">
+									</div>
+								</div>
+								<div class="other-courses-card__info">
+									<p class="other-courses-card__title">
+										Курс Эмоции
+									</p>
+									<p class="other-courses-card__price">
+										5 900 ₽
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide other-courses__slide">
+							<div class="other-courses-card">
+								<div class="other-courses-card__image">
+									<div class="box">
+										<img src="img/other-courses/image-3.jpg" alt="Изображение">
+									</div>
+								</div>
+								<div class="other-courses-card__info">
+									<p class="other-courses-card__title">
+										Духовность — марафон «Дитя Бога»
+									</p>
+									<p class="other-courses-card__price">
+										5 900 ₽
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide other-courses__slide">
+							<div class="other-courses-card">
+								<div class="other-courses-card__image">
+									<div class="box">
+										<img src="img/other-courses/image-4.jpg" alt="Изображение">
+									</div>
+								</div>
+								<div class="other-courses-card__info">
+									<p class="other-courses-card__title">
+										Духовность — марафон «Дитя Бога»
+									</p>
+									<p class="other-courses-card__price">
+										5 900 ₽
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide other-courses__slide">
+							<div class="other-courses-card">
+								<div class="other-courses-card__image">
+									<div class="box">
+										<img src="img/other-courses/image-1.jpg" alt="Изображение">
+									</div>
+								</div>
+								<div class="other-courses-card__info">
+									<p class="other-courses-card__title">
+										Духовность — марафон «Дитя Бога»
+									</p>
+									<p class="other-courses-card__price">
+										5 900 ₽
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide other-courses__slide">
+							<div class="other-courses-card">
+								<div class="other-courses-card__image">
+									<div class="box">
+										<img src="img/other-courses/image-2.jpg" alt="Изображение">
+									</div>
+								</div>
+								<div class="other-courses-card__info">
+									<p class="other-courses-card__title">
+										Курс Эмоции
+									</p>
+									<p class="other-courses-card__price">
+										5 900 ₽
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide other-courses__slide">
+							<div class="other-courses-card">
+								<div class="other-courses-card__image">
+									<div class="box">
+										<img src="img/other-courses/image-3.jpg" alt="Изображение">
+									</div>
+								</div>
+								<div class="other-courses-card__info">
+									<p class="other-courses-card__title">
+										Духовность — марафон «Дитя Бога»
+									</p>
+									<p class="other-courses-card__price">
+										5 900 ₽
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide other-courses__slide">
+							<div class="other-courses-card">
+								<div class="other-courses-card__image">
+									<div class="box">
+										<img src="img/other-courses/image-4.jpg" alt="Изображение">
+									</div>
+								</div>
+								<div class="other-courses-card__info">
+									<p class="other-courses-card__title">
+										Духовность — марафон «Дитя Бога»
+									</p>
+									<p class="other-courses-card__price">
+										5 900 ₽
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end -->
+
+		<!-- Психологи центра -->
+		<section class="team-block direction-item-team">
+			<div class="container">
+				<div class="program-coordinators">
+					<div class="program-coordinators__background">
+						<svg width="1920" height="268" viewBox="0 0 1920 268" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M-106 239.336C0.666664 128.67 378.9 -47.3633 604.5 91.8367C886.5 265.837 1070.38 180.092 1209 125.337C1690 -64.6632 1616.5 228.337 2019.5 125.337"
+								stroke="#BCDADE" stroke-width="81" />
+							<path
+								d="M-106 239.336C0.666664 128.67 378.9 -47.3633 604.5 91.8367C886.5 265.837 1070.38 180.092 1209 125.337C1690 -64.6632 1616.5 228.337 2019.5 125.337"
+								stroke="url(#paint0_radial_3029_4817)" stroke-width="81" />
+							<defs>
+								<radialGradient id="paint0_radial_3029_4817" cx="0" cy="0" r="1"
+									gradientTransform="matrix(-302.982 614.863 -3774.61 -1109.15 809.884 -296.228)"
+									gradientUnits="userSpaceOnUse">
+									<stop stop-color="#64ED8D" />
+									<stop offset="0.170093" stop-color="#B2E169" />
+									<stop offset="0.380819" stop-color="#96D87F" />
+									<stop offset="0.584221" stop-color="#20AEDB" />
+									<stop offset="1" stop-color="#295174" />
+								</radialGradient>
+							</defs>
+						</svg>
+					</div>
+
+					<div class="program-coordinators__background-mob">
+						<svg width="320" height="652" viewBox="0 0 320 652" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M-43 15.0039C140.232 61.4134 399.291 162.708 192.12 243.655C-319.199 443.442 241.847 578.143 384 637.004"
+								stroke="url(#paint0_radial_724_5805)" stroke-width="30" stroke-linecap="round" />
+							<defs>
+								<radialGradient id="paint0_radial_724_5805" cx="0" cy="0" r="1"
+									gradientTransform="matrix(-112.65 324.864 -1892.03 -139.976 -240.825 388.788)"
+									gradientUnits="userSpaceOnUse">
+									<stop stop-color="#64ED8D" />
+									<stop offset="0.170093" stop-color="#B2E169" />
+									<stop offset="0.380819" stop-color="#96D87F" />
+									<stop offset="0.584221" stop-color="#20AEDB" />
+									<stop offset="1" stop-color="#295174" />
+								</radialGradient>
+							</defs>
+						</svg>
+					</div>
+
+					<div class="program-coordinators__header">
+						<h2 class="program-coordinators__title section-title">
+							Команда центра
+						</h2>
+					</div>
+
+					<div class="program-coordinators__block">
+						<div class="program-coordinators-card">
+							<div class="program-coordinators-card__image">
+								<div class="box">
+									<img src="img/program-coordinators/image-1.png" alt="Изображение">
+								</div>
+							</div>
+							<div class="program-coordinators-card__info">
+								<p class="name">
+									Якунина Александра
+								</p>
+								<p class="experience">
+									Стаж: 7 лет
+								</p>
+								<p class="position">
+									Психолог, специалист по коррекции пищевого поведения
+								</p>
+							</div>
+						</div>
+
+						<div class="program-coordinators-card">
+							<div class="program-coordinators-card__image">
+								<div class="box">
+									<img src="img/program-coordinators/image-2.png" alt="Изображение">
+								</div>
+							</div>
+							<div class="program-coordinators-card__info">
+								<p class="name">
+									Юлия Соседко
+								</p>
+								<p class="experience">
+									Стаж: 10 лет
+								</p>
+								<p class="position">
+									Психолог, специалист по созависимости
+								</p>
+							</div>
+						</div>
+
+						<div class="program-coordinators-card">
+							<div class="program-coordinators-card__image">
+								<div class="box">
+									<img src="img/program-coordinators/image-3.png" alt="Изображение">
+								</div>
+							</div>
+							<div class="program-coordinators-card__info">
+								<p class="name">
+									Якунина Александра
+								</p>
+								<p class="experience">
+									Стаж: 7 лет
+								</p>
+								<p class="position">
+									Психолог, специалист по коррекции пищевого поведения
+								</p>
+							</div>
+						</div>
+
+						<div class="program-coordinators-card">
+							<div class="program-coordinators-card__image">
+								<div class="box">
+									<img src="img/program-coordinators/image-4.png" alt="Изображение">
+								</div>
+							</div>
+							<div class="program-coordinators-card__info">
+								<p class="name">
+									Роман Войтенков
+								</p>
+								<p class="experience">
+									Стаж: 7 лет
+								</p>
+								<p class="position">
+									Клинический психолог, консультант по зависимому и созависимому поведению
+								</p>
+							</div>
+						</div>
+
+						<div class="program-coordinators-card">
+							<div class="program-coordinators-card__image">
+								<div class="box">
+									<img src="img/program-coordinators/image-5.png" alt="Изображение">
+								</div>
+							</div>
+							<div class="program-coordinators-card__info">
+								<p class="name">
+									Якунина Александра
+								</p>
+								<p class="experience">
+									Стаж: 7 лет
+								</p>
+								<p class="position">
+									Психолог, специалист по коррекции пищевого поведения
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end -->
+
+
+	</main>
+	@@include('html/footer.html', {})
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>

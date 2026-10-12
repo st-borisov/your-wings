@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+@@include('html/head.html', {
+"title": "404"
+})
+
+<body class="bd">
+	@@include('html/header.html', {})
+	<main>
+		<section class="error-page">
+			<div class="container">
+				<div class="error-page__block">
+					<div class="error-page__image">
+						<div class="box">
+							<img src="img/error-page/error-page.svg" alt="Изображение">
+						</div>
+					</div>
+					<div class="error-page__content">
+						<div class="error-page__text">
+							<p>
+								Похоже, неправильно указан адрес или данной страницы не существует.
+							</p>
+							<p>
+								Но у нас есть много других!
+							</p>
+						</div>
+						<div class="error-page__buttons">
+							<button class="error-page__button-one btn-1">На главную</button>
+							<button class="error-page__button-one btn-4">Наши направления</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+	@@include('html/footer.html', {})
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>

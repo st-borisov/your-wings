@@ -79,22 +79,27 @@ svg
 //end
 
 //Заголовки
-.title-h1
+.title
 	font-size: 4.375rem
 	line-height: 103%
 	+a-bold
 
-.title-h2
+.section-title
 	font-size: 3.625rem
 	line-height: 107%
 	+a-med
 //end
 
+.item-name
+	font-size: 2.125rem
+	line-height: 100%
+	+a-med
+
 .btn-1
 	display: flex
 	justify-content: center
 	align-items: center
-	background: radial-gradient(103.28% 393.48% at 8.27% 200%, #295174 0%, #26A5CE 37.76%, #26B6E0 61.26%, #FECB59 100%), radial-gradient(241.01% 978.39% at 56.14% -241.96%, #64ED8D 0%, #B2E169 17.01%, #96D87F 38.08%, #20AEDB 58.42%, #295174 100%)
+	background: linear-gradient(105deg, #286184 0%,#20a8d0 45%,#a4e46b 100%)
 	border-radius: 6.25rem
 	border: none
 	color: #ffffff
@@ -102,6 +107,37 @@ svg
 	line-height: 100%
 	height: 2.875rem
 	padding: 0 2.75rem
+	font-size: 1.0625rem
+	line-height: 100%
+
+.btn-2
+	display: flex
+	justify-content: center
+	align-items: center
+	background-color: transparent
+	border: .0625rem solid transparent
+	background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(to right, #4bb0e4, #b3d16b) border-box
+	border-radius: 6.25rem
+	height: 3.5rem
+	color: var(--text-1)
+	padding: 0 1.25rem
+	font-size: 1.125rem
+
+.link-1
+	display: flex
+	justify-content: flex-start
+	align-items: center
+	gap: .625rem
+	.link-text
+		font-size: 1.125rem
+		line-height: 100%
+		color: var(--text-1)
+	.link-icon
+		display: flex
+		justify-content: center
+		align-items: center
+		width: .75rem
+		height: .75rem
 
 @media screen and ( min-width: 1920px	)
 	html
@@ -113,4 +149,4 @@ svg
 
 @media screen and ( max-width: 576px )
 	html
-		font-size: calc(100vw * (16 / 360))
+		font-size: calc(100vw * (16 / 320))
