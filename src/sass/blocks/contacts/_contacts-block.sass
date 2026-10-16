@@ -1,0 +1,102 @@
+.contacts-block
+	padding: 1.875rem 0 6.25rem
+	&__wrapper
+		display: flex
+		gap: 2.5rem
+		margin-top: 1.375rem
+	&__left
+		background-color: #fff
+		border-radius: 1.25rem
+		padding: 1.5625rem
+		max-width: 36.5625rem
+		width: 100%
+	&-info
+		&__group
+			margin-bottom: 1.625rem
+			&:last-child
+				margin: 0
+		&__title
+			font-size: 1.625rem
+			+a-bold
+			margin-bottom: .875rem
+		&-item
+			display: flex
+			align-items: center
+			gap: .625rem
+			line-height: 1
+			margin-bottom: .875rem
+			&:last-child
+				margin: 0
+			&__icon
+				.box
+					width: 1.125rem
+			&__text
+				color: var(--text-1)
+	&__right
+		border-radius: 1.25rem
+		overflow: hidden
+		width: 100%
+	&__map
+		width: 100%
+		height: 100%
+		iframe
+			width: 100%
+			height: 100%
+	&-requisite
+		margin-top: 3.125rem
+		&__name
+			font-size: 1.625rem
+			+a-bold
+		&__block
+			margin-top: 1.0625rem
+			+col-two
+			gap: 8.75rem
+		&-row
+			display: flex
+			gap: 3.75rem
+			margin-bottom: .75rem
+			line-height: 1.2
+			&:last-child
+				margin: 0
+			&__name
+				opacity: 0.25
+				min-width: 11.3125rem
+
+@media screen and ( max-width: 992px )
+	.contacts-block
+		&__wrapper
+			flex-direction: column
+			gap: 1.25rem
+		&__right
+			height: 22.75rem
+		&__left
+			max-width: 100%
+		&__title
+			text-align: center
+		&-requisite
+			&__block
+				+col-one
+				gap: .75rem
+
+@media screen and ( max-width: 576px )
+	.contacts-block
+		padding: 1.25rem 0 3.125rem
+		&__wrapper
+			margin-top: .625rem
+		&__left
+			padding: 1.25rem
+		&-info
+			&__title
+				font-size: 1.25rem
+		&__right
+			width: 100vw
+			margin-left: -0.875rem
+			border-radius: 0
+		&-requisite
+			margin-top: 2.75rem
+			&-row
+				font-size: .75rem
+				gap: .75rem
+				margin-bottom: .625rem
+				&__name
+					min-width: 8.75rem

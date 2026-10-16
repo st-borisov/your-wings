@@ -13,7 +13,7 @@ body
 	padding: 0
 	margin: 0
 	font-size: 1rem
-	line-height: 150%
+	line-height: 1.5
 	color: var(--text-1)
 	background-color: var(--background)
 	+o-reg
@@ -78,6 +78,17 @@ svg
 	width: 100%
 //end
 
+.box
+	display: flex
+	justify-content: center
+	align-items: center
+	position: relative
+	overflow: hidden
+	img
+		width: 100%
+		height: 100%
+		object-fit: cover
+
 //Заголовки
 .title
 	font-size: 4.375rem
@@ -123,6 +134,13 @@ svg
 	padding: 0 1.25rem
 	font-size: 1.125rem
 
+.btn-4
+	border: .0625rem solid transparent
+	border-radius: 6.25rem
+	background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, radial-gradient(177.59% 557.81% at 43.09% -169.35%, #64ED8D 0%, #B2E169 17.01%, #96D87F 38.08%, #20AEDB 58.42%, #295174 100%) border-box
+	font-size: 1.25rem
+	color: var(--text-1)
+
 .link-1
 	display: flex
 	justify-content: flex-start
@@ -146,7 +164,13 @@ svg
 @media screen and ( max-width: 992px )
 	html
 		font-size: calc(100vw * (16 / 768))
+	.container
+		padding: 0 1.25rem
 
 @media screen and ( max-width: 576px )
 	html
 		font-size: calc(100vw * (16 / 320))
+	.container
+		padding: 0 .875rem
+	.section-title
+		font-size: 1.625rem

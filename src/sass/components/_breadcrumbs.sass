@@ -1,0 +1,37 @@
+.breadcrumbs
+	padding-top: 8.25rem
+	+o-semi
+	line-height: 1.5
+	.container-two
+		max-width: 111.25rem
+		width: 100%
+		margin: auto
+	&__block
+		display: flex
+		align-items: center
+	&-title
+		opacity: 0.5
+	&-link
+		color: var(--text-1)
+	&-line
+		width: 1rem
+		height: .0625rem
+		background-color: var(--text-1)
+		display: block
+		margin: 0 .625rem
+
+@media screen and ( max-width: 992px )
+	.breadcrumbs
+		padding-top: 6.25rem
+		.container-two
+			max-width: 100%
+			padding: 0 1.25rem
+
+@media screen and ( max-width: 576px )
+	.breadcrumbs
+		padding-top: 4.625rem
+		font-size: .625rem
+		.container-two
+			padding: 0 .875rem
+		&-line
+			margin: 0 .375rem

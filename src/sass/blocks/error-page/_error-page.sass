@@ -1,0 +1,59 @@
+.error-page
+	padding-top: 10rem
+	padding-bottom: 12.5rem
+	&__block
+		+column-center
+	&__image
+		.box
+			width: 77.5rem
+	&__content
+		margin-top: 3.4375rem
+		+column-center
+	&__text
+		font-size: 1.875rem
+		+o-light
+		text-align: center
+		+column
+		gap: .375rem
+		line-height: 1.5
+	&__buttons
+		display: flex
+		gap: 1.5rem
+		margin-top: 2.625rem
+	&__button
+		&-one
+			min-width: 23.75rem
+			min-height: 4.5rem
+			font-size: 1.25rem
+
+@media screen and ( max-width: 992px )
+	.error-page
+		padding: 6.25rem 0
+		&__image
+			.box
+				width: 56.25rem
+		&__button
+			&-one
+				min-width: 18.75rem
+		&__text
+			font-size: 1.5rem
+			max-width: 37.5rem
+
+@media screen and ( max-width: 576px )
+	.error-page
+		padding: 5.375rem 0 3.75rem
+		&__image
+			.box
+				width: 25.5rem
+		&__content
+			margin-top: 2.5rem
+		&__buttons
+			margin-top: 1rem
+			flex-direction: column
+			gap: .625rem
+		&__button
+			&-one
+				min-height: 2.5rem
+				font-size: .75rem
+		&__text
+			font-size: .875rem

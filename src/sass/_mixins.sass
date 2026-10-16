@@ -1,0 +1,66 @@
+// Flex
+@mixin center
+	display: flex
+	align-items: center
+	justify-content: center
+
+@mixin center-stroke
+	display: flex
+	align-items: center
+
+@mixin column
+	display: flex
+	flex-direction: column
+
+@mixin column-center
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+
+@mixin column-start
+	display: flex
+	flex-direction: column
+	align-items: flex-start
+
+@mixin column-between
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+
+@mixin between
+	display: flex
+	justify-content: space-between
+
+@mixin between-center
+	display: flex
+	justify-content: space-between
+	align-items: center
+
+// Grid
+@mixin col-one
+	display: grid
+	grid-template-columns: repeat(1, 1fr)
+
+@mixin col-two
+	display: grid
+	grid-template-columns: repeat(2, 1fr)
+
+@mixin col-three
+	display: grid
+	grid-template-columns: repeat(3, 1fr)
+
+@mixin col-four
+	display: grid
+	grid-template-columns: repeat(4, 1fr)
+
+// Background 
+@mixin bg-100
+	background-repeat: no-repeat
+	background-position: center
+	background-size: 100%
+
+@mixin bg-cover
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
