@@ -8,8 +8,6 @@ html
 	font-size: calc(100vw * (16 / 1920))
 
 body
-	width: calc(100vw - (100vw - 100%))
-	height: 100%
 	padding: 0
 	margin: 0
 	font-size: 1rem
@@ -99,6 +97,11 @@ svg
 	font-size: 3.625rem
 	line-height: 107%
 	+a-med
+
+.block-title
+	font-size: 1.875rem
+	line-height: 103%
+	+a-bold
 //end
 
 .item-name
@@ -140,6 +143,20 @@ svg
 	background: linear-gradient(#FFFFFF, #FFFFFF) padding-box, radial-gradient(177.59% 557.81% at 43.09% -169.35%, #64ED8D 0%, #B2E169 17.01%, #96D87F 38.08%, #20AEDB 58.42%, #295174 100%) border-box
 	font-size: 1.25rem
 	color: var(--text-1)
+.btn-3
+	display: flex
+	justify-content: center
+	align-items: center
+	background-color: #ffffff
+	border-radius: 6.25rem
+	border: none
+	color: var(--text-1)
+	font-size: 1.0625rem
+	line-height: 100%
+	height: 3.5rem
+	padding: 0 2.75rem
+	font-size: 1.125rem
+	line-height: 100%
 
 .link-1
 	display: flex
@@ -156,6 +173,18 @@ svg
 		align-items: center
 		width: .75rem
 		height: .75rem
+
+.input
+	display: block
+	width: 100%
+	height: 3.375rem
+	border: .0625rem solid #D4D4D4
+	padding: 0 1.25rem
+	border-radius: 3.75rem
+	&::placeholder
+		display: block
+		font-size: .875rem
+		color: rgba(75, 75, 76, 0.6)
 
 @media screen and ( min-width: 1920px	)
 	html

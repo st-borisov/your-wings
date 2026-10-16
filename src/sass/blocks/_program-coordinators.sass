@@ -1,0 +1,64 @@
+.program-coordinators
+	&__background-mob
+		display: none
+		z-index: 1
+	&__background
+		position: absolute
+		left: -4.4375rem
+		width: 120.3125rem
+		height: 18.75rem
+		top: 6.875rem
+		z-index: 1
+		svg
+			width: 100%
+			height: 100%
+	&__title
+		text-align: center
+		font-size: 2.25rem
+		line-height: 100%
+	&__block
+		position: relative
+		display: grid
+		grid-template-columns: repeat(5, 1fr)
+		margin-top: 2.1875rem
+		gap: 1.875rem
+	&-card
+		position: relative
+		z-index: 3
+		max-width: 20.25rem
+		width: 100%
+		&__image
+			width: 100%
+			height: 25.5625rem
+			border-radius: 1.25rem
+			background: rgba(255, 255, 255, 0.34)
+			overflow: hidden
+			backdrop-filter: blur(1.5rem) saturate(140%) brightness(1.15)
+			-webkit-backdrop-filter: blur(1.5rem) saturate(140%) brightness(1.15)
+			.box
+				width: 100%
+				height: 100%
+				img
+					width: 100%
+					height: 100%
+		&__info
+			display: flex
+			flex-direction: column
+			width: 100%
+			.name
+				text-align: center
+				font-size: 1.5rem
+				margin-top: 1rem
+				width: 100%
+				+a-bold
+			.experience
+				font-size: 1rem
+				text-align: center
+				width: 100%
+				+a-bold
+			.position
+				display: block
+				margin: auto
+				margin-top: .5rem
+				font-size: .875rem
+				text-align: center

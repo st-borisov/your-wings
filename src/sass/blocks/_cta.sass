@@ -1,0 +1,79 @@
+.cta
+	position: relative
+	overflow: hidden
+	padding: 5.625rem 0 7.1875rem
+	margin: 3.75rem 0
+	.cta-background
+		position: absolute
+		top: 0
+		left: 0
+		bottom: 0
+		right: 0
+		z-index: 1
+		.box
+			width: 100%
+			height: 100%
+			img
+				width: 100%
+				height: 100%
+	.cta-background-mob
+		display: none
+		position: absolute
+		top: 0
+		left: 0
+		bottom: 0
+		right: 0
+		z-index: 1
+	&-block
+		position: relative
+		max-width: 67.5rem
+		width: 100%
+		z-index: 3
+		&__title
+			position: relative
+			color: #ffffff
+			span
+				position: relative
+				&::after
+					content: ''
+					position: absolute
+					top: 1rem
+					right: -0.4375rem
+					left: -0.4375rem
+					height: 3.625rem
+					background: linear-gradient(248.59deg, #F1ECD6 4.84%, #CDE9E4 100%)
+					opacity: 0.37
+					border-radius: 3.125rem
+					height: 3.625rem
+		&__list
+			display: flex
+			flex-direction: column
+			gap: .875rem
+			padding-top: 3.125rem
+			max-width: 52.5rem
+		&__list-item
+			position: relative
+			font-size: 1.125rem
+			line-height: 140%
+			padding-left: 3.125rem
+			color: #ffffff
+			&::after
+				content: ''
+				position: absolute
+				top: -0.3125rem
+				left: 0
+				width: 2.1875rem
+				height: 2.1875rem
+				background-image: url(../img/interface/arrow-two.svg)
+		&__bottom
+			padding-top: 7.5rem
+		&__buttons
+			display: flex
+			justify-content: flex-start
+			align-items: center
+			gap: 3.125rem
+		&__button
+			width: 22.8125rem
+		&-link
+			.link-text
+				color: #ffffff

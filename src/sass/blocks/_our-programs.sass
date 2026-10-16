@@ -1,0 +1,103 @@
+.our-programs
+	padding: 3.125rem 0
+	&-header
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		margin-bottom: 3.75rem
+		&__title
+			font-size: 3.625rem
+			line-height: 100%
+			text-align: center
+		&__subtitle
+			margin: auto
+			margin-top: 1.25rem
+			max-width: 74.6875rem
+			width: 100%
+			text-align: center
+			font-size: 1.875rem
+			line-height: 150%
+			+o-light
+	&-program
+		padding: 3.75rem 0 6.25rem
+		background: linear-gradient(248.59deg, #F1ECD6 4.84%, #CDE9E4 100%)
+		border-radius: 20px
+		&__block
+			display: grid
+			grid-template-columns: auto 34.625rem
+		&__header
+			display: flex
+			flex-direction: column
+			gap: 1.125rem
+		&__text
+			font-size: 1.875rem
+			line-height: 150%
+			max-width: 71.875rem
+			width: 100%
+			+o-light
+		&__items
+			display: flex
+			justify-content: flex-start
+			align-items: flex-start
+			gap: 3.125rem
+			margin-top: 3.75rem
+		&-item
+			display: flex
+			flex-direction: column
+			justify-content: flex-start
+			align-items: flex-start
+			&__title
+				font-size: 1.875rem
+				+a-bold
+			&__text
+				line-height: 150%
+		&-description
+			max-width: 60.625rem
+			width: 100%
+			margin-top: 4.0625rem
+			&__title
+				font-size: 2.25rem
+				line-height: 100%
+				margin-bottom: 1.1875rem
+				+a-bold
+			&__list
+				display: flex
+				flex-direction: column
+				justify-content: flex-start
+				align-items: flex-start
+				gap: .9375rem
+				li
+					position: relative
+					line-height: 150%
+					padding-left: 1.875rem
+					font-size: 1.25rem
+					&::after
+						content: ''
+						position: absolute
+						left: 0
+						top: .4375rem
+						width: 1rem
+						height: 1rem
+						background-image: url(../img/interface/arrow.svg)
+		&__buttons
+			margin-top: 2.375rem
+		&__button
+			padding: 0 2.8125rem
+			height: 3.5rem
+		&__image
+			height: 46.5625rem
+			width: 100%
+			border-radius: 1.25rem
+			overflow: hidden
+			.box
+				width: 100%
+				height: 100%
+				img
+					width: 100%
+					height: 100%
+	.program-coordinators
+		padding-top: 5.625rem
+
+.our-programs.our-programs-two
+	padding-bottom: 0

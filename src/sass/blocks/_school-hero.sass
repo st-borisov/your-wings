@@ -1,0 +1,91 @@
+.hero.school-hero
+	padding: 1rem 0 4.0625rem 0
+	.container
+		position: relative
+	.hero__block
+		gap: 1.25rem
+	.hero-left
+		max-width: 56.875rem
+		width: 100%
+		padding: 1.5rem 0 0 0
+	.hero__right
+		width: 53.125rem
+		.hero-video
+			position: relative
+			width: 100%
+			height: 31.875rem
+			border-radius: 1.25rem
+			overflow: hidden
+			&::after
+				content: ''
+				position: absolute
+				right: 0
+				left: 0
+				top: 0
+				bottom: 0
+				background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(image.png)
+				z-index: 2
+		.hero-image
+			width: 100%
+			height: 100%
+			.box
+				width: 100%
+				height: 100%
+				img
+					width: 100%
+					height: 100%
+		.hero-video__play
+			position: absolute
+			margin: auto
+			top: 0
+			left: 0
+			bottom: 0
+			right: 0
+			width: 3.25rem
+			height: 3.75rem
+			z-index: 3
+			svg
+				width: 100%
+				height: 100%
+	.hero-left__text
+		font-size: 4.375rem
+		margin-top: .625rem
+	.hero__subtitle
+		max-width: 48rem
+		width: 100%
+		font-size: 1.9375rem
+		margin-top: 3.75rem
+		line-height: 150%
+		+o-light
+	.hero-items
+		display: flex
+		justify-content: flex-start
+		align-items: flex-start
+		gap: 7.5rem
+		margin-top: 2.5rem
+	.hero-item
+		&__title
+			font-size: 3.375rem
+			line-height: 100%
+			+a-med
+		&__text
+			font-size: 1.125rem
+			line-height: 100%
+			margin-top: .5625rem
+	.hero-content
+		margin: auto
+		max-width: 41.875rem
+		width: 100%
+	.hero-content__text
+		display: block
+		margin-top: 1.875rem
+		text-align: center
+		font-size: 1.875rem
+		line-height: 150%
+		+o-light
+	.hero-content__name
+		text-align: center
+		margin-top: 1.5rem
+		max-width: 100%
+		width: 100%
+		font-size: 1.125rem

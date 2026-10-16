@@ -1,0 +1,202 @@
+.podcasts
+	position: relative
+	margin: 3.75rem 0
+	padding: 10rem 0 5rem
+	&-backgroud
+		position: absolute
+		right: 0
+		left: 0
+		bottom: 0
+		top: 0
+		z-index: 1
+		.box
+			width: 100%
+			height: 100%
+			img
+				width: 100%
+				height: 100%
+	&-backgroud-mob
+		display: none
+		position: absolute
+		right: 0
+		left: 0
+		bottom: 0
+		top: 0
+		z-index: 1
+		.box
+			width: 100%
+			height: 100%
+			img
+				width: 100%
+				height: 100%
+	&__header
+		position: relative
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		gap: .625rem
+		z-index: 3
+	&__title
+		text-align: center
+		margin-bottom: .625rem
+		color: #ffffff
+	&__subtitle
+		max-width: 55.3125rem
+		width: 100%
+		text-align: center
+	&__subtitle
+		font-size: 1.125rem
+		line-height: 150%
+		color: #ffffff
+	&-block
+		display: grid
+		grid-template-columns: repeat(2, 1fr)
+		gap: 1.875rem
+		max-width: 87.5rem
+		width: 100%
+		margin: auto
+		margin-top: 3.5rem
+	&-card
+		width: 100%
+		position: relative
+		height: 22.75rem
+		border-radius: 1.25rem
+		overflow: hidden
+		border: .0625rem solid #A09E92
+		&::after
+			content: ''
+			position: absolute
+			right: 0
+			left: 0
+			top: 0
+			bottom: 0
+			z-index: 1
+			backdrop-filter: blur(24px) saturate(140%) brightness(1.15)
+			-webkit-backdrop-filter: blur(24px) saturate(140%) brightness(1.15)
+			border: .0625rem solid #A09E92
+			border-radius: 1.25rem
+		&__image
+			position: absolute
+			right: 0
+			left: 0
+			top: 0
+			bottom: 0
+			z-index: 2
+			.box
+				width: 100%
+				height: 100%
+				img
+					width: 100%
+					height: 100%
+		&-block
+			position: relative
+			z-index: 3
+			display: grid
+			grid-template-columns: 18.75rem auto
+			gap: 1.25rem
+			height: 100%
+			&__left
+				display: flex
+				justify-content: flex-start
+				align-items: flex-end
+				gap: .75rem
+				position: relative
+				height: 100%
+				width: 100%
+				padding: .9375rem 1.125rem
+			&__play
+				position: absolute
+				margin: auto
+				top: 8.9375rem
+				left: 0
+				right: 0
+				width: 2.0625rem
+				height: 2.3125rem
+				border: none
+				background: transparent
+				.icon
+					width: 100%
+					height: 100%
+					svg
+						width: 100%
+						height: 100%
+			&-right
+				display: flex
+				justify-content: space-between
+				flex-direction: column
+				padding: 1.25rem 2rem 1.25rem 0
+				height: 100%
+				&__top
+					display: flex
+					flex-direction: column
+					justify-content: flex-start
+					align-items: flex-start
+				&__title
+					font-size: 2.375rem
+					margin-bottom: 1.25rem
+					color: #ffffff
+				&__text
+					display: flex
+					flex-direction: column
+					gap: .625rem
+					color: #ffffff
+					font-size: 1rem
+					line-height: 140%
+				&-bottom
+					display: flex
+					justify-content: flex-start
+					align-items: center
+					gap: 2.1875rem
+					&__text
+						color: #C7C3BC
+			&__socials
+				display: flex
+				justify-content: flex-start
+				align-items: center
+				margin-top: 2.1875rem
+				gap: .75rem
+			&__social
+				width: 1.4375rem
+				height: 1.4375rem
+			&__buttons
+				display: flex
+				justify-content: flex-start
+				align-items: center
+				gap: .75rem
+			&__button-one
+				width: 12.0625rem
+				height: 2.1875rem
+				font-size: .875rem
+			&__button-two
+				width: 2.5625rem
+				height: 2.1875rem
+				padding: 0
+				.icon
+					width: .9375rem
+					height: .9375rem
+					svg
+						width: 100%
+						height: 100%
+	&-bottom
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-top: 4.375rem
+	&-link
+		position: relative
+		z-index: 4
+		gap: .875rem
+		margin: auto
+		.link-text
+			font-size: 1.5rem
+			line-height: 100%
+			color: #ffffff
+			+a-med
+		.link-icon
+			margin-top: .1875rem
+			width: 2.25rem
+			height: 2.25rem
+			svg
+				width: 100%
+				height: 100%

@@ -1,0 +1,69 @@
+.your-path
+	padding: 3.125rem 0
+	&__title
+		text-align: center
+		margin-bottom: 4.0625rem
+	&__items
+		position: relative
+		display: flex
+		justify-content: center
+		align-items: flex-start
+		gap: 2.5rem
+		&::after
+			content: ''
+			position: absolute
+			margin: auto
+			top: 2.1875rem
+			right: 0
+			left: 0
+			height: .125rem
+			width: 59.375rem
+			background-color: #80AA83
+			z-index: 1
+	&-item
+		max-width: 18.125rem
+		width: 100%
+		position: relative
+		z-index: 2
+		&__top
+			display: flex
+			justify-content: center
+			align-items: center
+		&__circle
+			display: block
+			border-radius: 100%
+			width: 4.375rem
+			height: 4.375rem
+			background: radial-gradient(226.92% 932.04% at 157.31% -116.55%, #DBF1D6 0%, #FFFDDA 20.58%, #C2E2D9 69.37%, #C1E2D9 84.22%, #DAE9CD 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+		&__number
+			display: flex
+			justify-content: center
+			align-items: center
+			width: 4.375rem
+			height: 4.375rem
+			margin-left: -2.1875rem
+			background-color: #80AA83
+			font-size: 2.9375rem
+			padding-bottom: .75rem
+			color: #ffffff
+			border-radius: 100%
+			+a-med
+		&__text
+			margin-top: 2.375rem
+			font-size: 1.25rem
+			text-align: center
+			line-height: 150%
+	&-bottom
+		display: flex
+		justify-content: center
+		flex-direction: column
+		align-items: center
+		margin-top: 3.75rem
+		&__button
+			padding: 0 5.1875rem
+			height: 3.5rem
+		&__text
+			margin-top: 1.125rem
+			max-width: 32.5rem
+			width: 100%
+			text-align: center
