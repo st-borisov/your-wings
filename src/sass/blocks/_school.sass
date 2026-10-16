@@ -1,0 +1,108 @@
+.school
+	padding: 3.75rem 0
+	&-block
+		display: grid
+		grid-template-columns: 32.9375rem auto
+		gap: 6.25rem
+		&__image
+			overflow: hidden
+			width: 100%
+			height: 100%
+			border-radius: 1.25rem
+		&__left
+			position: relative
+			width: 32.9375rem
+			height: 32.9375rem
+		&-quote
+			display: flex
+			justify-content: center
+			align-items: center
+			&__text
+				font-size: 2.5rem
+				line-height: 150%
+				max-width: 68.3125rem
+				width: 100%
+				text-align: center
+				margin-top: 6.25rem
+				+o-light
+
+	&-stats
+		position: absolute
+		display: flex
+		flex-direction: column
+		justify-content: flex-end
+		align-items: flex-end
+		gap: 1.75rem
+		bottom: 3.125rem
+		right: -2.5rem
+		&-card
+			display: flex
+			flex-direction: column
+			gap: .1875rem
+			padding: .625rem 1.25rem 1.5625rem 1.5625rem
+			border-radius: .9375rem
+			background: linear-gradient(248.59deg, rgba(241, 236, 214, 0.33) 4.84%, rgba(151, 143, 137, 0.33) 100%)
+			backdrop-filter: blur(18px) saturate(120%)
+			-webkit-backdrop-filter: blur(18px) saturate(120%)
+			&__title
+				display: flex
+				justify-content: flex-start
+				align-items: flex-end
+				gap: .625rem
+				font-size: 4.6875rem
+				color: #ffffff
+				line-height: 100%
+				+a-med
+				.number
+					display: block
+					font-size: 4.6875rem
+				.number-text
+					display: block
+					font-size: 2.5625rem
+					line-height: 100%
+					padding-bottom: .3125rem
+			&__text
+				font-size: 1rem
+				line-height: 100%
+				color: #ffffff
+	&-info
+		max-width: 61.5rem
+		width: 100%
+		&__text
+			font-size: 1.25rem
+			line-height: 150%
+			margin-top: 1.25rem
+			max-width: 48.625rem
+			width: 100%
+		&__items
+			display: grid
+			grid-template-columns: repeat(3, 1fr)
+			gap: .75rem
+			margin-top: 3.375rem
+		&-item
+			display: flex
+			flex-direction: column
+			justify-content: space-between
+			padding: 1.25rem 1.25rem 1.625rem 1.625rem
+			background-color: #FFFFFF
+			border-radius: .625rem
+			height: 15rem
+			&__icon
+				width: 2.5rem
+				.box
+					width: 100%
+			&__text
+				font-size: 1.125rem
+				line-height: 150%
+		&-link
+			margin-top: 2.1875rem
+			.link-text
+				font-size: 1.5rem
+				line-height: 100%
+				+a-med
+			.link-icon
+				width: 1.5625rem
+				height: 1.5625rem
+				svg
+					width: 100%
+					height: 100%

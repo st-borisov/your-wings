@@ -96,7 +96,7 @@
 							<h3 class="features-item__title item-name">Зависимость<br> и созависимость</h3>
 						</div>
 						<div class="features-item__wrapper">
-							<ul class="features__list">
+							<ul class="features-item__list">
 								<li>Созависимые отношения</li>
 								<li>Любовная зависимость</li>
 								<li>Алкогольная зависимость</li>
@@ -113,7 +113,7 @@
 							<h3 class="features-item__title item-name">Отношения<br> и семья</h3>
 						</div>
 						<div class="features-item__wrapper">
-							<ul class="features__list">
+							<ul class="features-item__list">
 								<li>Конфликты в семье</li>
 								<li>Развод и расставание</li>
 								<li>Измена и ревность</li>
@@ -136,7 +136,7 @@
 								состояние</h3>
 						</div>
 						<div class="features-item__wrapper">
-							<ul class="features__list">
+							<ul class="features-item__list">
 								<li>Тревога и беспокойство</li>
 								<li>Панические атаки</li>
 								<li>Эмоциональное выгорание</li>
@@ -158,7 +158,7 @@
 							</h3>
 						</div>
 						<div class="features-item__wrapper">
-							<ul class="features__list">
+							<ul class="features-item__list">
 								<li>Низкая самооценка</li>
 								<li>Неуверенность в себе</li>
 								<li>Самокритика</li>
@@ -184,7 +184,7 @@
 					</div>
 
 					<div class="features-help-wrapper">
-						<h3 class="features-help-wrapper__title">
+						<h3 class="features-help-wrapper__title block-title">
 							С чем мы помогаем
 						</h3>
 						<div class="features-help-wrapper__items">
@@ -221,18 +221,6 @@
 								<div class="item-text">
 									<p>
 										Годы идут, а близости и любви так и нет
-									</p>
-								</div>
-							</div>
-							<div class="features-help-wrapper-item">
-								<div class="item-icon">
-									<div class="box">
-										<img src="img/features/icon-3.svg" alt="Иконка">
-									</div>
-								</div>
-								<div class="item-text">
-									<p>
-										В семье есть алкоголизм, наркомания, игромания
 									</p>
 								</div>
 							</div>
@@ -278,9 +266,14 @@
 
 				<!-- Квиз -->
 				<div class="quiz">
-					<h3 class="quiz-title section-title">
+					<div class="quiz__background-image">
+						<div class="box">
+							<img src="img/quiz/background.svg" alt="Изображение">
+						</div>
+					</div>
+					<h3 class="quiz__title">
 						Ответьте на несколько вопросов и мы скажем,
-						<i>что подходит лучше всего именно вам</i>
+						<span><i>что подходит лучше всего именно вам</i></span>
 					</h3>
 					<div class="quiz-buttons">
 						<button class="quiz-button btn-1">
@@ -452,21 +445,22 @@
 				<div class="cta-block">
 					<div class="cta-block__top">
 						<h2 class="cta-block__title section-title">
-							Поможем не просто «поговорить с психологом», а
-							<span>пройти путь изменений</span>
-							<span>с поддержкой</span> — шаг за шагом, под руководством специалиста
+							Поможем не просто «поговорить<br>
+							с психологом», а <span>пройти путь изменений</span><br>
+							<span>с поддержкой</span> — шаг за шагом,<br>
+							под руководством специалиста<br>
 						</h2>
-					</div>
-					<div class="cta-block__bottom">
-						<ul class="cta__list">
-							<li class="cta__list-item">Куратор-психолог сопровождает вас лично на протяжении всей программы</li>
-							<li class="cta__list-item">Индивидуальная работа + поддерживающие группы 4–5 раз в неделю</li>
-							<li class="cta__list-item">Современные психологические методики с уважением к вере;
+						<ul class="cta-block__list">
+							<li class="cta-block__list-item">Куратор-психолог сопровождает вас лично на протяжении всей программы</li>
+							<li class="cta-block__list-item">Индивидуальная работа + поддерживающие группы 4–5 раз в неделю</li>
+							<li class="cta-block__list-item">Современные психологические методики с уважением к вере;
 								онлайн, конфиденциально, в вашем темпе</li>
 						</ul>
-						<div class="cta__buttons">
-							<button class="cta-button button-3">К программам</button>
-							<a href="" class="cta-link link-1">
+					</div>
+					<div class="cta-block__bottom">
+						<div class="cta-block__buttons">
+							<button class="cta-block__button btn-3">К программам</button>
+							<a href="" class="cta-block-link link-1">
 								<span class="link-text">
 									Консультация онлайн
 								</span>
@@ -497,12 +491,17 @@
 						</div>
 						<div class="school-stats">
 							<div class="school-stats-card">
-								<span class="school-stats-card__title">5 лет</span>
-								<span class="school__stat">работы центра</span>
+								<span class="school-stats-card__title">
+									<span class="number">5</span>
+									<span class="number-text">лет</span>
+								</span>
+								<span class="school-stats-card__text">работы центра</span>
 							</div>
 							<div class="school-stats-card">
-								<span class="school-stats-card__title">13 000</span>
-								<span class="school__stat">участников курсов и марафонов</span>
+								<span class="school-stats-card__title">
+									<span class="number">13 000</span>
+								</span>
+								<span class="school-stats-card__text">участников курсов и марафонов</span>
 							</div>
 						</div>
 					</div>
@@ -515,45 +514,45 @@
 									открытие собственного бизнеса, нашли любовь и внутреннюю опору.
 								</p>
 							</div>
-							<div class="school__items">
-								<div class="school-item">
-									<div class="school-item__icon">
+							<div class="school-info__items">
+								<div class="school-info-item">
+									<div class="school-info-item__icon">
 										<div class="box">
 											<img src="img/school/icon-1.svg" alt="Иконка">
 										</div>
 									</div>
-									<div class="school-item__text">
+									<div class="school-info-item__text">
 										<p>
 											Курсы по самооценке, отношениям, вере, целях и сепарации от родителей
 										</p>
 									</div>
 								</div>
-								<div class="school-item">
-									<div class="school-item__icon">
+								<div class="school-info-item">
+									<div class="school-info-item__icon">
 										<div class="box">
 											<img src="img/school/icon-2.svg" alt="Иконка">
 										</div>
 									</div>
-									<div class="school-item__text">
+									<div class="school-info-item__text">
 										<p>
-											Живые тренинги и практики в мини-группах для людей любого возраста.
+											Живые тренинги и онлайн-программы, доступные из любой точки мира
 										</p>
 									</div>
 								</div>
-								<div class="school-item">
-									<div class="school-item__icon">
+								<div class="school-info-item">
+									<div class="school-info-item__icon">
 										<div class="box">
 											<img src="img/school/icon-3.svg" alt="Иконка">
 										</div>
 									</div>
-									<div class="school-item__text">
+									<div class="school-info-item__text">
 										<p>
-											Курсы в записи — для тех, кто хочет начать прямо сейчас.
+											Курсы в записи — для тех, кто хочет начать прямо сейчас
 										</p>
 									</div>
 								</div>
 							</div>
-							<a href="#" class="school-link link-1">
+							<a href="#" class="school-info-link link-1">
 								<span class="link-text">
 									К курсам
 								</span>
@@ -599,14 +598,13 @@
 
 			<div class="container">
 				<div class="podcasts__header">
-					<h2 class="podcasts__title">Слушайте и растите</h2>
+					<h2 class="podcasts__title section-title">Слушайте и растите</h2>
 					<div class="podcasts__subtitle">
 						<p>
-							Честные разговоры психологов и священника о том, как строить отношения, справляться с трудностями и
-							находить смысл даже в непростые периоды жизни
+							Честные разговоры психологов и священника о том, как строить отношения,<br>
+							справляться с трудностями и находить смысл даже в непростые периоды жизни
 						</p>
 					</div>
-
 				</div>
 				<div class="podcasts-block">
 					<div class="podcasts-card">
@@ -628,8 +626,8 @@
 								</button>
 
 								<div class="podcasts-card-block__buttons">
-									<a href="##" class="podcasts-card-block__button btn-2">Подробнее</a>
-									<button class="podcasts-card-block__button btn-2">
+									<a href="##" class="podcasts-card-block__button-one btn-3">Подробнее</a>
+									<button class="podcasts-card-block__button-two btn-3">
 										<span class="icon">
 											<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<g clip-path="url(#clip0_3012_4929)">
@@ -648,40 +646,42 @@
 								</div>
 							</div>
 
-							<div class="podcasts-card-block__right">
-								<h3 class="podcasts-card-block__title">Отношения.Про</h3>
-								<div class="podcasts-card-block__text">
-									<p>
-										Подкаст об отношениях, счастье, саморазвитии.
-									</p>
-									<p>
-										Говорим о том, что на самом деле мешает близости, зачем нам повторяющиеся сценарии и как научиться
-										быть рядом, не теряя себя.
-									</p>
-								</div>
-								<div class="podcasts-card-block__socials">
-									<a href="##" class="podcasts-card-block__social">
-										<span class="box">
-											<img src="img/socials/telegram.svg" alt="Иконка">
-										</span>
-									</a>
-									<a href="##" class="podcasts-card-block__social">
-										<span class="box">
-											<img src="img/socials/max.svg" alt="Иконка">
-										</span>
-									</a>
-									<a href="##" class="podcasts-card-block__social">
-										<span class="box">
-											<img src="img/socials/telegram.svg" alt="Иконка">
-										</span>
-									</a>
+							<div class="podcasts-card-block-right">
+								<div class="podcasts-card-block-right__top">
+									<h3 class="podcasts-card-block-right__title item-name">Отношения.Про</h3>
+									<div class="podcasts-card-block-right__text">
+										<p>
+											Подкаст об отношениях, счастье, саморазвитии.
+										</p>
+										<p>
+											Говорим о том, что на самом деле мешает близости, зачем нам повторяющиеся сценарии и как научиться
+											быть рядом, не теряя себя.
+										</p>
+									</div>
+									<div class="podcasts-card-block__socials">
+										<a href="##" class="podcasts-card-block__social">
+											<span class="box">
+												<img src="img/socials/telegram.svg" alt="Иконка">
+											</span>
+										</a>
+										<a href="##" class="podcasts-card-block__social">
+											<span class="box">
+												<img src="img/socials/max.svg" alt="Иконка">
+											</span>
+										</a>
+										<a href="##" class="podcasts-card-block__social">
+											<span class="box">
+												<img src="img/socials/telegram.svg" alt="Иконка">
+											</span>
+										</a>
+									</div>
 								</div>
 
-								<div class="podcasts-card-block-bottom">
-									<p class="podcasts-card-block-bottom__text podcasts-card-block-bottom__category">
+								<div class="podcasts-card-block-right-bottom">
+									<p class="podcasts-card-block-right-bottom__text podcasts-card-block-bottom__category">
 										Отношения
 									</p>
-									<p class="podcasts-card-block-bottom__text podcasts-card-block-bottom__name">
+									<p class="podcasts-card-block-right-bottom__text podcasts-card-block-bottom__name">
 										Антон Зинькевич
 									</p>
 								</div>
@@ -707,8 +707,8 @@
 								</button>
 
 								<div class="podcasts-card-block__buttons">
-									<a href="##" class="podcasts-card-block__button btn-2">Подробнее</a>
-									<button class="podcasts-card-block__button btn-2">
+									<a href="##" class="podcasts-card-block__button-one btn-3">Подробнее</a>
+									<button class="podcasts-card-block__button-two btn-3">
 										<span class="icon">
 											<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<g clip-path="url(#clip0_3012_4929)">
@@ -727,40 +727,42 @@
 								</div>
 							</div>
 
-							<div class="podcasts-card-block__right">
-								<h3 class="podcasts-card-block__title">Что будем делать?</h3>
-								<div class="podcasts-card-block__text">
-									<p>
-										Честный и тёплый разговор о том, что болит.
-									</p>
-									<p>
-										Про любовь и разрыв, выгорание и поиск смысла, зависимость и созависимость, одиночество и личное
-										счастье.
-									</p>
-								</div>
-								<div class="podcasts-card-block__socials">
-									<a href="##" class="podcasts-card-block__social">
-										<span class="box">
-											<img src="img/socials/telegram.svg" alt="Иконка">
-										</span>
-									</a>
-									<a href="##" class="podcasts-card-block__social">
-										<span class="box">
-											<img src="img/socials/max.svg" alt="Иконка">
-										</span>
-									</a>
-									<a href="##" class="podcasts-card-block__social">
-										<span class="box">
-											<img src="img/socials/telegram.svg" alt="Иконка">
-										</span>
-									</a>
+							<div class="podcasts-card-block-right">
+								<div class="podcasts-card-block-right__top">
+									<h3 class="podcasts-card-block-right__title item-name">Что будем делать?</h3>
+									<div class="podcasts-card-block-right__text">
+										<p>
+											Честный и тёплый разговор о том, что болит.
+										</p>
+										<p>
+											Про любовь и разрыв, выгорание и поиск смысла, зависимость и созависимость, одиночество и личное
+											счастье.
+										</p>
+									</div>
+									<div class="podcasts-card-block__socials">
+										<a href="##" class="podcasts-card-block__social">
+											<span class="box">
+												<img src="img/socials/telegram.svg" alt="Иконка">
+											</span>
+										</a>
+										<a href="##" class="podcasts-card-block__social">
+											<span class="box">
+												<img src="img/socials/max.svg" alt="Иконка">
+											</span>
+										</a>
+										<a href="##" class="podcasts-card-block__social">
+											<span class="box">
+												<img src="img/socials/telegram.svg" alt="Иконка">
+											</span>
+										</a>
+									</div>
 								</div>
 
-								<div class="podcasts-card-block-bottom">
-									<p class="podcasts-card-block-bottom__text podcasts-card-block-bottom__category">
+								<div class="podcasts-card-block-right-bottom">
+									<p class="podcasts-card-block-right-bottom__text podcasts-card-block-bottom__category">
 										Отношения
 									</p>
-									<p class="podcasts-card-block-bottom__text podcasts-card-block-bottom__name">
+									<p class="podcasts-card-block-right-bottom__text podcasts-card-block-bottom__name">
 										Антон Зинькевич
 									</p>
 								</div>
@@ -768,20 +770,22 @@
 						</div>
 					</div>
 				</div>
-				<button class="podcasts-link">
-					<span class="link-text">Слушать все подкасты</span>
-					<span class="link-icon">
-						<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path
-								d="M1.6682 16.8777C1.10189 16.8777 0.642795 17.3137 0.642791 17.8516C0.642786 18.3895 1.10187 18.8255 1.66819 18.8255L1.66819 17.8516L1.6682 16.8777ZM32.0859 18.8258C32.6522 18.8258 33.1113 18.3897 33.1113 17.8518C33.1113 17.3139 32.6523 16.8779 32.0859 16.8779L32.0859 17.8518L32.0859 18.8258ZM1.66819 17.8516L1.66819 18.8255L32.0859 18.8258L32.0859 17.8518L32.0859 16.8779L1.6682 16.8777L1.66819 17.8516Z"
-								fill="white" />
-							<path d="M20.084 7.81641C21.6136 12.2211 22.8242 16.3235 32.084 17.8529" stroke="white" stroke-width="2"
-								stroke-linecap="round" />
-							<path d="M20.084 27.2002C21.6136 23.0983 22.8242 19.2779 32.084 17.8537" stroke="white" stroke-width="2"
-								stroke-linecap="round" />
-						</svg>
-					</span>
-				</button>
+				<div class="podcasts-bottom">
+					<a href="" class="podcasts-link link-1">
+						<span class="link-text">Слушать все подкасты</span>
+						<span class="link-icon">
+							<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M1.6682 16.8777C1.10189 16.8777 0.642795 17.3137 0.642791 17.8516C0.642786 18.3895 1.10187 18.8255 1.66819 18.8255L1.66819 17.8516L1.6682 16.8777ZM32.0859 18.8258C32.6522 18.8258 33.1113 18.3897 33.1113 17.8518C33.1113 17.3139 32.6523 16.8779 32.0859 16.8779L32.0859 17.8518L32.0859 18.8258ZM1.66819 17.8516L1.66819 18.8255L32.0859 18.8258L32.0859 17.8518L32.0859 16.8779L1.6682 16.8777L1.66819 17.8516Z"
+									fill="white" />
+								<path d="M20.084 7.81641C21.6136 12.2211 22.8242 16.3235 32.084 17.8529" stroke="white" stroke-width="2"
+									stroke-linecap="round" />
+								<path d="M20.084 27.2002C21.6136 23.0983 22.8242 19.2779 32.084 17.8537" stroke="white" stroke-width="2"
+									stroke-linecap="round" />
+							</svg>
+						</span>
+					</a>
+				</div>
 			</div>
 		</section>
 		<!-- end -->
@@ -841,10 +845,14 @@
 																	Смотреть видеоотзыв
 																</span>
 															</button>
-															<p class="reviews-card-time">
+															<p class="reviews-card-play__time">
 																1:26
 															</p>
 														</div>
+														<p class="reviews-card__title">
+															Когда пришла в крылья, у нас с мужем были сложные отношения. Но я послушала вас и начала с
+															себя.
+														</p>
 													</div>
 													<div class="reviews-card__right">
 														<div class="reviews-card__icon">
@@ -881,7 +889,7 @@
 																		решения...
 																	</p>
 																</div>
-																<a href="##" class="reviews-card__link">
+																<a href="##" class="reviews-card__link link-1">
 																	<span class="link-text">
 																		Читать целиком
 																	</span>
@@ -939,10 +947,14 @@
 																	Смотреть видеоотзыв
 																</span>
 															</button>
-															<p class="reviews-card-time">
+															<p class="reviews-card-play__time">
 																1:26
 															</p>
 														</div>
+														<p class="reviews-card__title">
+															Удалось выразить то, что копилось внутри, но было страшно признать, нуждалась во внешней
+															опоре. Получила помощь, поддержку.
+														</p>
 													</div>
 													<div class="reviews-card__right">
 														<div class="reviews-card__icon">
@@ -1007,10 +1019,14 @@
 																	Смотреть видеоотзыв
 																</span>
 															</button>
-															<p class="reviews-card-time">
+															<p class="reviews-card-play__time">
 																1:26
 															</p>
 														</div>
+														<p class="reviews-card__title">
+															Когда пришла в крылья, у нас с мужем были сложные отношения. Но я послушала вас и начала с
+															себя.
+														</p>
 													</div>
 													<div class="reviews-card__right">
 														<div class="reviews-card__icon">
@@ -1047,7 +1063,7 @@
 																		решения...
 																	</p>
 																</div>
-																<a href="##" class="reviews-card__link">
+																<a href="##" class="reviews-card__link link-1">
 																	<span class="link-text">
 																		Читать целиком
 																	</span>
@@ -1105,10 +1121,188 @@
 																	Смотреть видеоотзыв
 																</span>
 															</button>
-															<p class="reviews-card-time">
+															<p class="reviews-card-play__time">
 																1:26
 															</p>
 														</div>
+														<p class="reviews-card__title">
+															Удалось выразить то, что копилось внутри, но было страшно признать, нуждалась во внешней
+															опоре. Получила помощь, поддержку.
+														</p>
+													</div>
+													<div class="reviews-card__right">
+														<div class="reviews-card__icon">
+															<div class="box">
+																<svg width="42" height="78" viewBox="0 0 42 78" fill="none"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path
+																		d="M21 78C15.1455 78 10.1818 75.8544 6.10909 71.5631C2.03636 67.0194 0 60.9612 0 53.3884C0 42.534 1.65454 33.699 4.96364 26.8835C8.27273 19.8155 11.9636 14.2621 16.0364 10.2233C20.6182 5.67961 26.0909 2.27185 32.4545 0L36.2727 6.05826C31.9455 8.07767 28.1273 10.4757 24.8182 13.2524C22.0182 15.7767 19.3455 18.8058 16.8 22.3398C14.5091 25.6214 13.3636 29.6602 13.3636 34.4563C13.3636 36.2233 13.6182 37.6116 14.1273 38.6214C14.3818 39.3786 14.7636 39.8835 15.2727 40.1359C15.7818 39.8835 16.5455 39.6311 17.5636 39.3786C18.3273 39.1262 19.0909 38.8738 19.8545 38.6214C20.8727 38.3689 21.8909 38.2427 22.9091 38.2427C28.7636 38.2427 33.3455 40.0097 36.6545 43.5437C40.2182 46.8252 42 51.3689 42 57.1748C42 62.9806 39.9636 67.9029 35.8909 71.9417C31.8182 75.9806 26.8545 78 21 78Z"
+																		fill="url(#paint0_linear_254_33)" />
+																	<defs>
+																		<linearGradient id="paint0_linear_254_33" x1="49.6323" y1="-5.36724" x2="-35.5"
+																			y2="26.4973" gradientUnits="userSpaceOnUse">
+																			<stop stop-color="#F1ECD6" />
+																			<stop offset="1" stop-color="#CDE9E4" />
+																		</linearGradient>
+																	</defs>
+																</svg>
+															</div>
+														</div>
+														<div class="reviews-card-content">
+															<div class="reviews-card-content__top">
+																<div class="reviews-card__text">
+																	<p>
+																		У нас 17 лет совместной жизни, и мы опять ходим влюбленные, как и в первые года!
+																		Когда пришла в Крылья у нас с мужем были сложные отношения. Но я послушала вас и
+																		начала с себя. Были сложности, но я не останавливалась, получала поддержку. Муж
+																		через какое-то время начал замечать мои "потуги" и тоже стал откликаться в своём
+																		добром расположении.
+																	</p>
+																</div>
+															</div>
+															<div class="reviews-card-content__bottom">
+																<p class="reviews-card-content__name">Алина, 41 год</p>
+																<a href="##" class="reviews-card-content__link">
+																	Марафон «Дитя Бога»
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="swiper-slide reviews-slide">
+											<div class="reviews-card">
+												<div class="reviews-card__block">
+													<div class="reviews-card__left">
+														<div class="reviews-card__image">
+															<img src="img/reviews/image.jpg" alt="Изображение">
+														</div>
+														<div class="reviews-card__bottom">
+															<button class="reviews-card-play">
+																<span class="reviews-card-play__icon">
+																	<svg width="33" height="37" viewBox="0 0 33 37" fill="none"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M31.5 16.725C32.8333 17.4948 32.8333 19.4193 31.5 20.1891L3 36.6436C1.66667 37.4134 2.02279e-06 36.4511 2.09009e-06 34.9115L3.52858e-06 2.00255C3.59588e-06 0.46295 1.66667 -0.499304 3 0.270496L31.5 16.725Z"
+																			fill="white" fill-opacity="0.8" />
+																	</svg>
+																</span>
+																<span class="reviews-card-play__text">
+																	Смотреть видеоотзыв
+																</span>
+															</button>
+															<p class="reviews-card-play__time">
+																1:26
+															</p>
+														</div>
+														<p class="reviews-card__title">
+															Когда пришла в крылья, у нас с мужем были сложные отношения. Но я послушала вас и начала с
+															себя.
+														</p>
+													</div>
+													<div class="reviews-card__right">
+														<div class="reviews-card__icon">
+															<div class="box">
+																<svg width="42" height="78" viewBox="0 0 42 78" fill="none"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path
+																		d="M21 78C15.1455 78 10.1818 75.8544 6.10909 71.5631C2.03636 67.0194 0 60.9612 0 53.3884C0 42.534 1.65454 33.699 4.96364 26.8835C8.27273 19.8155 11.9636 14.2621 16.0364 10.2233C20.6182 5.67961 26.0909 2.27185 32.4545 0L36.2727 6.05826C31.9455 8.07767 28.1273 10.4757 24.8182 13.2524C22.0182 15.7767 19.3455 18.8058 16.8 22.3398C14.5091 25.6214 13.3636 29.6602 13.3636 34.4563C13.3636 36.2233 13.6182 37.6116 14.1273 38.6214C14.3818 39.3786 14.7636 39.8835 15.2727 40.1359C15.7818 39.8835 16.5455 39.6311 17.5636 39.3786C18.3273 39.1262 19.0909 38.8738 19.8545 38.6214C20.8727 38.3689 21.8909 38.2427 22.9091 38.2427C28.7636 38.2427 33.3455 40.0097 36.6545 43.5437C40.2182 46.8252 42 51.3689 42 57.1748C42 62.9806 39.9636 67.9029 35.8909 71.9417C31.8182 75.9806 26.8545 78 21 78Z"
+																		fill="url(#paint0_linear_254_33)" />
+																	<defs>
+																		<linearGradient id="paint0_linear_254_33" x1="49.6323" y1="-5.36724" x2="-35.5"
+																			y2="26.4973" gradientUnits="userSpaceOnUse">
+																			<stop stop-color="#F1ECD6" />
+																			<stop offset="1" stop-color="#CDE9E4" />
+																		</linearGradient>
+																	</defs>
+																</svg>
+															</div>
+														</div>
+														<div class="reviews-card-content">
+															<div class="reviews-card-content__top">
+																<div class="reviews-card__text">
+																	<p>
+																		Благодаря нашей работе я смогла выйти из очень токсичных отношений, которые
+																		разрушали
+																		не
+																		только мое эмоциональное состояние, но и негативно влияли на физическое здоровье.
+																		Для
+																		меня это был огромный и очень важный шаг, на который раньше я просто не могла
+																		решиться.
+																		Самое главное, что изменилось за эти месяцы - я перестала бояться жить. Благодаря
+																		поддержке у меня появилось больше смелости действовать, пробовать новое и
+																		принимать
+																		решения...
+																	</p>
+																</div>
+																<a href="##" class="reviews-card__link link-1">
+																	<span class="link-text">
+																		Читать целиком
+																	</span>
+																	<span class="link-icon">
+																		<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+																			xmlns="http://www.w3.org/2000/svg">
+																			<g clip-path="url(#clip0_710_3798)">
+																				<path
+																					d="M1.18102 7.11127C0.614706 7.11126 0.155614 7.5473 0.155609 8.08519C0.155606 8.62308 0.614691 9.05913 1.18101 9.05913L1.18101 8.0852L1.18102 7.11127ZM14.8542 9.05923C15.4206 9.05923 15.8796 8.62319 15.8796 8.0853C15.8797 7.54742 15.4206 7.11137 14.8543 7.11136L14.8542 8.0853L14.8542 9.05923ZM1.18101 8.0852L1.18101 9.05913L14.8542 9.05923L14.8542 8.0853L14.8543 7.11136L1.18102 7.11127L1.18101 8.0852Z"
+																					fill="#80AA83" />
+																				<path d="M9.45898 3.5752C10.1466 5.55517 10.6907 7.39927 14.8532 8.08675"
+																					stroke="#80AA83" stroke-width="2" stroke-linecap="round" />
+																				<path d="M9.45898 12.2881C10.1466 10.4442 10.6907 8.72689 14.8532 8.08668"
+																					stroke="#80AA83" stroke-width="2" stroke-linecap="round" />
+																			</g>
+																			<defs>
+																				<clipPath id="clip0_710_3798">
+																					<rect width="16" height="16" fill="white" />
+																				</clipPath>
+																			</defs>
+																		</svg>
+																	</span>
+																</a>
+															</div>
+															<div class="reviews-card-content__bottom">
+																<p class="reviews-card-content__name">Алина, 41 год</p>
+																<a href="##" class="reviews-card-content__link">
+																	Марафон «Дитя Бога»
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="swiper-slide reviews-slide">
+											<div class="reviews-card">
+												<div class="reviews-card__block">
+													<div class="reviews-card__left">
+														<div class="reviews-card__image">
+															<img src="img/reviews/image-2.jpg" alt="Изображение">
+														</div>
+														<div class="reviews-card__bottom">
+															<button class="reviews-card-play">
+																<span class="reviews-card-play__icon">
+																	<svg width="33" height="37" viewBox="0 0 33 37" fill="none"
+																		xmlns="http://www.w3.org/2000/svg">
+																		<path
+																			d="M31.5 16.725C32.8333 17.4948 32.8333 19.4193 31.5 20.1891L3 36.6436C1.66667 37.4134 2.02279e-06 36.4511 2.09009e-06 34.9115L3.52858e-06 2.00255C3.59588e-06 0.46295 1.66667 -0.499304 3 0.270496L31.5 16.725Z"
+																			fill="white" fill-opacity="0.8" />
+																	</svg>
+																</span>
+																<span class="reviews-card-play__text">
+																	Смотреть видеоотзыв
+																</span>
+															</button>
+															<p class="reviews-card-play__time">
+																1:26
+															</p>
+														</div>
+														<p class="reviews-card__title">
+															Удалось выразить то, что копилось внутри, но было страшно признать, нуждалась во внешней
+															опоре. Получила помощь, поддержку.
+														</p>
 													</div>
 													<div class="reviews-card__right">
 														<div class="reviews-card__icon">
@@ -2306,7 +2500,7 @@
 		<section class="teaser">
 			<div class="teaser-background">
 				<div class="box">
-					<img src="img/teaser/background.jpg" alt="Изображение">
+					<img src="img/teaser/background.png" alt="Изображение">
 				</div>
 			</div>
 			<div class="teaser-background-mob">
@@ -2316,18 +2510,17 @@
 			</div>
 			<div class="container">
 				<div class="teaser-block">
-
 					<div class="teaser-block__top">
-						<h2 class="teaser__title">Какое крыло твое?</h2>
+						<h2 class="teaser__title section-title">Какое крыло твое?</h2>
 						<p class="teaser__text">Короткий тест подскажет, с чего лучше начать —<br> программа с психологами или
 							обучение
 						</p>
 					</div>
-
-					<div class="teaser__bottom">
-						<button class="teaser-button btn-2">Узнать с чего начать</button>
-						<p class="teaser__text">
-							Ответьте на несколько вопросов и мы скажем, что подходит лучше всего именно вам. Результат покажем сразу
+					<div class="teaser-bottom">
+						<button class="teaser-bottom__button btn-3">Узнать с чего начать</button>
+						<p class="teaser-bottom__text">
+							Ответьте на несколько вопросов и мы скажем, что подходит<br> лучше всего именно вам. Результат покажем
+							сразу
 						</p>
 					</div>
 				</div>
@@ -2340,17 +2533,26 @@
 			<div class="container">
 				<div class="form-section__block">
 					<div class="form-section__left">
-						<h2 class="form-section__title">«Каждый человек может обрести свои крылья — опору и вдохновение»</h2>
+						<div class="form-section__background">
+							<div class="box">
+								<img src="img/interface/background-logo.svg" alt="Фоновое изображение">
+							</div>
+						</div>
+						<h2 class="form-section__title section-title">
+							«Каждый человек может обрести свои крылья
+							<br> — опору и вдохновение»
+						</h2>
 						<div class="form-section__text">
 							<p>
-								Более 25 лет помогаем людям — офлайн и онлайн. Петербург, Москва,
+								Более 25 лет помогаем людям
+								— офлайн и онлайн. Петербург, Москва,
 								Казань, русскоязычный мир.
 							</p>
 						</div>
 					</div>
 					<div class="form-section__right">
 						<div class="form-section-form">
-							<h3 class="form-section-form__title">
+							<h3 class="form-section-form__title section-title">
 								Обретите свои крылья уже сегодня
 							</h3>
 							<div class="form-section-form__text">
@@ -2361,11 +2563,13 @@
 							<form class="form-section-form__block">
 								<input type="text" class="form-section-form__input input" placeholder="Как к вам обращаться">
 								<input type="tel" class="form-section-form__input input tel" placeholder="Ваш телефон">
-								<input type="email" class="form-section__input" placeholder="Ваша электронная почта">
-								<button type="submit" class="form-section-form__button btn-3">Отправить</button>
-								<p class="form-section__policy">Нажимая кнопку, вы соглашаетесь с
-									<a href="##">политикой конфиденциальности.</a>
-								</p>
+								<input type="email" class="form-section__input input" placeholder="Ваша электронная почта">
+								<div class="form-section-form__bottom">
+									<button type="submit" class="form-section-form__button btn-1">Обсудитиь свой запрос</button>
+									<p class="form-section-form__policy">Нажимая кнопку, вы соглашаетесь с
+										<a href="##">политикой конфиденциальности.</a>
+									</p>
+								</div>
 							</form>
 						</div>
 					</div>
@@ -2377,7 +2581,10 @@
 		<!-- Текстовый блок текст -->
 		<section class="final-text">
 			<div class="container">
-				<h2 class="final-text__title">Крылья расправляются в доверии и ясности. Мы помогаем это создать.</h2>
+				<h2 class="final-text__title section-title">
+					Крылья расправляются в доверии и ясности.<br>
+					Мы помогаем это создать.
+				</h2>
 				<div class="final-text-content">
 					<p>
 						Мы ушли от формата «вопрос-ответ». Потому что настоящие изменения не случаются за час. Наша философия —
@@ -2392,25 +2599,68 @@
 					</p>
 					<ul>
 						<li>
+							<span>
+								<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_714_3886)">
+										<path
+											d="M1.18102 7.11127C0.614706 7.11126 0.155614 7.5473 0.155609 8.08519C0.155606 8.62308 0.614691 9.05913 1.18101 9.05913L1.18101 8.0852L1.18102 7.11127ZM14.8542 9.05923C15.4206 9.05923 15.8796 8.62319 15.8796 8.0853C15.8797 7.54742 15.4206 7.11137 14.8543 7.11136L14.8542 8.0853L14.8542 9.05923ZM1.18101 8.0852L1.18101 9.05913L14.8542 9.05923L14.8542 8.0853L14.8543 7.11136L1.18102 7.11127L1.18101 8.0852Z"
+											fill="#80AA83" />
+										<path d="M9.45898 3.5752C10.1466 5.55517 10.6907 7.39927 14.8532 8.08675" stroke="#80AA83"
+											stroke-width="2" stroke-linecap="round" />
+										<path d="M9.45898 12.2881C10.1466 10.4442 10.6907 8.72689 14.8532 8.08668" stroke="#80AA83"
+											stroke-width="2" stroke-linecap="round" />
+									</g>
+									<defs>
+										<clipPath id="clip0_714_3886">
+											<rect width="16" height="16" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</span>
 							Мы не бросаем на полпути. С вами работают не временные консультанты, а команда, которая видит вашу
 							историю целиком. Мы поддерживаем вас в моменте кризиса и радуемся вместе с вами, когда наступают
 							перемены.
 						</li>
 						<li>
+							<span>
+								<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_714_3886)">
+										<path
+											d="M1.18102 7.11127C0.614706 7.11126 0.155614 7.5473 0.155609 8.08519C0.155606 8.62308 0.614691 9.05913 1.18101 9.05913L1.18101 8.0852L1.18102 7.11127ZM14.8542 9.05923C15.4206 9.05923 15.8796 8.62319 15.8796 8.0853C15.8797 7.54742 15.4206 7.11137 14.8543 7.11136L14.8542 8.0853L14.8542 9.05923ZM1.18101 8.0852L1.18101 9.05913L14.8542 9.05923L14.8542 8.0853L14.8543 7.11136L1.18102 7.11127L1.18101 8.0852Z"
+											fill="#80AA83" />
+										<path d="M9.45898 3.5752C10.1466 5.55517 10.6907 7.39927 14.8532 8.08675" stroke="#80AA83"
+											stroke-width="2" stroke-linecap="round" />
+										<path d="M9.45898 12.2881C10.1466 10.4442 10.6907 8.72689 14.8532 8.08668" stroke="#80AA83"
+											stroke-width="2" stroke-linecap="round" />
+									</g>
+									<defs>
+										<clipPath id="clip0_714_3886">
+											<rect width="16" height="16" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</span>
 							Гармония в отношениях начинается внутри. Мы помогаем навести порядок в собственных чувствах и
 							установках, чтобы ваши связи с партнерами, детьми и близкими стали глубже, искреннее и спокойнее.
 						</li>
 					</ul>
 				</div>
 
-				<button class="final-text-content-button">
-					<span class="final-text-content-button__open">
-						Читать целиком
-					</span>
-					<span class="final-text-content-button__close">
-						Закрыть
-					</span>
-				</button>
+				<div class="final-text-buttons">
+					<button class="final-text-button open">
+						<span class="final-text-button__text final-text-button__open">
+							Читать целиком
+						</span>
+						<span class="final-text-button__text final-text-button__close">
+							Закрыть
+						</span>
+						<span class="final-text-button__arrow">
+							<svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 1L5 5L9 1" stroke="#80AA83" stroke-width="2" stroke-linecap="round" />
+							</svg>
+						</span>
+					</button>
+				</div>
 			</div>
 		</section>
 	</main>

@@ -1,0 +1,119 @@
+.online-consultation
+	position: relative
+	margin-bottom: 3.125rem
+	position: relative
+	padding: 6.25rem 0 5.625rem
+	&__background
+		position: absolute
+		right: 0
+		left: 0
+		bottom: 0
+		top: 0
+		z-index: 1
+		.box
+			width: 100%
+			height: 100%
+			img
+				width: 100%
+				height: 100%
+	&__background-mob
+		display: none
+		position: absolute
+		right: 0
+		left: 0
+		bottom: 0
+		top: 0
+		z-index: 1
+		.box
+			width: 100%
+			height: 100%
+			img
+				width: 100%
+				height: 100%
+	.container
+		position: relative
+		z-index: 2
+		color: #ffffff
+	&-header
+		display: flex
+		justify-content: center
+		align-items: center
+		flex-direction: column
+		gap: 1.25rem
+		&__title
+			text-align: center
+			max-width: 93.75rem
+			width: 100%
+		&__text
+			display: flex
+			justify-content: center
+			align-items: center
+			flex-direction: column
+			gap: .25rem
+			font-size: 1.25rem
+			text-align: center
+			max-width: 88.75rem
+			width: 100%
+			line-height: 150%
+	&__cards
+		display: grid
+		grid-template-columns: repeat(3, 1fr)
+		gap: 1rem
+		margin-top: 3.125rem
+	&-card
+		width: 100%
+		border-radius: 1.25rem
+		padding: 1.4375rem 6.8125rem 1.4375rem 1.875rem
+		background: rgba(255, 255, 255, 0.16)
+		backdrop-filter: blur(1.5rem) saturate(140%) brightness(1.15)
+		-webkit-backdrop-filter: blur(1.5rem) saturate(140%) brightness(1.15)
+		&__header
+			display: flex
+			justify-content: flex-start
+			align-items: center
+			gap: .9375rem
+		&__icon
+			.box
+				width: 2.875rem
+				img
+					width: 100%
+		&__title
+			font-size: 1.75rem
+			line-height: 100%
+			+a-med
+		&__text
+			margin-top: .875rem
+	&__items
+		display: flex
+		justify-content: center
+		align-items: center
+		gap: 5.4375rem
+		margin-top: 6.25rem
+	&-item
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		gap: .9375rem
+		&__title
+			font-size: 2.375rem
+			line-height: 100%
+			+a-med
+		&__text
+			font-size: 1rem
+	&__bottom
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		gap: 1.375rem
+		margin-top: 5rem
+	&__button
+		width: 32.375rem
+		height: 3.5rem
+	&__button-text
+		max-width: 46.875rem
+		width: 100%
+		font-size: 1.875rem
+		line-height: 150%
+		text-align: center

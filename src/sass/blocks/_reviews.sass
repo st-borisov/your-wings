@@ -1,0 +1,207 @@
+.reviews
+	padding: 3.75rem 0
+	&__header
+		position: relative
+		display: flex
+		justify-content: center
+		align-items: center
+		max-width: 101.875rem
+		width: 100%
+		margin: auto
+		margin-bottom: 2.8125rem
+	&__link
+		position: absolute
+		bottom: 0
+		right: 0
+		gap: .5rem
+		.link-text
+			font-size: 1.5rem
+			line-height: 100%
+			+a-med
+		.link-icon
+			width: 1.5rem
+			height: 1.5rem
+			margin-top: .1875rem
+	&__tabs
+		display: flex
+		justify-content: center
+		align-items: center
+		flex-direction: column
+		gap: 2.125rem
+		.tabs
+			&__nav
+				margin: auto
+				display: flex
+				justify-content: center
+				align-items: center
+				height: 4.875rem
+				border-radius: 3.125rem
+				background: linear-gradient(90deg, #DDF3E9 0%, #F5F1DA 100%)
+			&__btn
+				display: flex
+				justify-content: center
+				align-items: center
+				background: transparent
+				padding: 0 4.375rem
+				height: 100%
+				border: transparent
+				border-radius: 3.125rem
+				font-size: 1.125rem
+			&__btn.tabs__btn_active
+				background-color: #ffffff
+			&__content
+				width: 101.875rem
+	&-card
+		height: 32.625rem
+		&__block
+			display: grid
+			height: 32.625rem
+			grid-template-columns: repeat(2, 1fr)
+			gap: .625rem
+		&__left
+			width: 100%
+			height: 100%
+			position: relative
+			overflow: hidden
+			border-radius: 1.25rem
+		&__image
+			width: 100%
+			height: 100%
+			.box
+				width: 100%
+				height: 100%
+				img
+					width: 100%
+					height: 100%
+		&__title
+			position: absolute
+			right: 2.6875rem
+			left: 2.6875rem
+			top: 8.375rem
+			color: #ffffff
+			font-size: 1.75rem
+			line-height: 120%
+			text-align: center
+			+a-med
+		&__bottom
+			position: absolute
+			display: flex
+			justify-content: flex-start
+			align-items: center
+			gap: 1.1875rem
+			right: 3.125rem
+			bottom: 2.25rem
+			left: 2.25rem
+		&-play
+			display: flex
+			justify-content: flex-start
+			align-items: center
+			gap: .9375rem
+			border: none
+			background: transparent
+			outline: none
+			&__icon
+				width: 2.0625rem
+				height: 2.3125rem
+				svg
+					width: 100%
+					height: 100%
+			&__text
+				color: #ffffff
+				font-size: 1.125rem
+			&__time
+				font-size: 1.125rem
+				color: #ffffff
+		&__link
+			margin-top: 1.5rem
+			.link-text
+				font-size: 1.25rem
+				line-height: 100%
+				+a-bold
+			.link-icon
+				width: 1rem
+				height: 1rem
+				svg
+					width: 100%
+					height: 100%
+		&__right
+			position: relative
+			padding: 5rem 1.875rem 1.5rem 1.875rem
+			border: .0625rem solid #E1E5E6
+			border-radius: 1.25rem
+			background-color: #ffffff
+		&__icon
+			position: absolute
+			top: 1.75rem
+			left: 1.625rem
+			width: 2.625rem
+			height: 4.875rem
+			z-index: 1
+			.box
+				width: 100%
+				height: 100%
+				svg
+					width: 100%
+					height: 100%
+		&-content
+			display: flex
+			flex-direction: column
+			justify-content: space-between
+			align-items: flex-start
+			position: relative
+			z-index: 2
+			height: 100%
+			&__bottom
+				display: flex
+				justify-content: space-between
+				align-items: center
+				width: 100%
+			&__name
+				color: var(--text-1)
+			&__link
+				display: flex
+				justify-content: center
+				align-items: center
+				padding: 0 1.125rem
+				color: var(--text-1)
+				background-color: #F4F6F5
+				border-radius: 1.25rem
+				height: 2.375rem
+				margin-right: -1.25rem
+				margin-bottom: -0.625rem
+	&-slider
+		&-bottom
+			display: flex
+			justify-content: center
+			align-items: center
+			gap: 1.25rem
+			width: 100%
+			margin-top: 3.75rem
+			&__arrow
+				display: flex
+				justify-content: center
+				align-items: center
+				width: 2.25rem
+				height: 2.25rem
+				.icon
+					width: 100%
+					height: 100%
+					svg
+						width: 100%
+						height: 100%
+			&__arrow.swiper-button-disabled
+				opacity: 0
+		&__pagination
+			display: flex
+			justify-content: center
+			align-items: center
+			width: auto !important
+			gap: .75rem
+			.swiper-pagination-bullet
+				width: 1.375rem !important
+				height: 1.375rem !important
+				background-color: #ffffff
+				opacity: 1
+				margin: 0 !important
+			.swiper-pagination-bullet.swiper-pagination-bullet-active
+				background-color: #80AA83

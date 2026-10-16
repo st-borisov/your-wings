@@ -1,0 +1,49 @@
+@font-face{
+	font-family: Alegreya;
+	font-display: swap;
+	src: url("../fonts/Alegreya-Bold.woff2") format("woff2"), url("../fonts/Alegreya-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: Alegreya;
+	font-display: swap;
+	src: url("../fonts/Alegreya-Medium.woff2") format("woff2"), url("../fonts/Alegreya-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face{
+	font-family: OpenSans;
+	font-display: swap;
+	src: url("../fonts/OpenSans-Light.woff2") format("woff2"), url("../fonts/OpenSans-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face{
+	font-family: OpenSans;
+	font-display: swap;
+	src: url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@mixin a-bold {
+	font-family: Alegreya;
+	font-weight: 700;
+}
+
+@mixin a-med {
+	font-family: Alegreya;
+	font-weight: 500;
+}
+
+@mixin o-light {
+	font-family: OpenSans;
+	font-weight: 300;
+}
+
+@mixin o-reg {
+	font-family: OpenSans;
+	font-weight: 400;
+}

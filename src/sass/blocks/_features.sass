@@ -1,4 +1,5 @@
 .features
+	padding: 2.5rem 0
 	&__title
 		display: flex
 		flex-direction: column
@@ -28,9 +29,90 @@
 		gap: 1rem
 		margin-top: 2.8125rem
 		padding: 0 4.0625rem
+		padding-bottom: 2.5rem
 	&-item
 		border-radius: 1.25rem
 		background-color: #FFFEFF
 		&__header
 			padding: .9375rem 1.5625rem 1.25rem 1.5625rem
 			border-bottom: .0625rem solid #80AA83
+		&__title
+			display: inline-block
+			background: linear-gradient(90deg, #274c77 0%, #49a8bd 50%, #94b98a 100%)
+			-webkit-background-clip: text
+			background-clip: text
+			color: transparent
+			-webkit-text-fill-color: transparent
+		&__list
+			display: flex
+			flex-direction: column
+			gap: .9375rem
+			width: 22.5rem
+			height: 17.875rem
+			overflow: auto
+			scrollbar-width: thin
+			scrollbar-color: #7ba58c transparent
+			&::-webkit-scrollbar
+				width: .25rem
+			&::-webkit-scrollbar-track
+				background: transparent
+			&::-webkit-scrollbar-thumb
+				border-radius: .625rem
+				background-image: linear-gradient(180deg, #2b9eb3 0%,#94b98a 50%,#e5ebd9 100%)
+				background-attachment: local
+				background-repeat: no-repeat
+				background-size: 100% 100%
+				overflow: hidden
+			li
+				position: relative
+				padding-left: 1.875rem
+				&::after
+					content: ''
+					position: absolute
+					display: block
+					top: .25rem
+					left: 0
+					width: 1rem
+					height: 1rem
+					background-image: url(../img/interface/arrow.svg)
+					background-position: center center
+					background-repeat: no-repeat
+		&__wrapper
+			padding: 1.5rem
+	&-help
+		&__text
+			margin: auto
+			font-size: 1.875rem
+			line-height: 150%
+			max-width: 74.5625rem
+			width: 100%
+			padding: 2.5rem 0
+			+o-light
+			p
+				text-align: center
+		&-wrapper
+			padding: 2.5rem 0
+			&__title
+				text-align: center
+			&__items
+				display: grid
+				grid-template-columns: repeat(3, 1fr)
+				column-gap: 1.5625rem
+				row-gap: 2.1875rem
+				margin-top: 2.5rem
+			&-item
+				display: flex
+				justify-content: flex-start
+				align-items: flex-start
+				gap: 1.5625rem
+				.item-icon
+					.box
+						width: 3.6875rem
+						height: 3.6875rem
+						img
+							width: 100%
+							height: 100%
+				.item-text
+					font-size: 1.125rem
+					padding-top: .3125rem
+					line-height: 150%

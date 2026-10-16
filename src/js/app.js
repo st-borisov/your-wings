@@ -113,7 +113,6 @@ tabs.forEach(tab => {
 
 /* accordion */
 const accordions = document.querySelectorAll('.accordion');
-
 class ItcAccordion {
 	constructor(target, config) {
 		this._el = typeof target === 'string' ? document.querySelector(target) : target;
@@ -191,7 +190,6 @@ class ItcAccordion {
 		el.classList.contains('accordion__item_show') ? this.hide(el) : this.show(el);
 	}
 }
-
 if (accordions.length > 0) {
 	accordions.forEach(accordion => {
 		new ItcAccordion(accordion, {

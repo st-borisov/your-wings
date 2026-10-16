@@ -6,6 +6,13 @@
 	font-style: normal;
 }
 @font-face{
+	font-family: OpenSans;
+	font-display: swap;
+	src: url("../fonts/OpenSans-Light.woff2") format("woff2"), url("../fonts/OpenSans-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face{
 	font-family: Alegreya;
 	font-display: swap;
 	src: url("../fonts/Alegreya-Medium.woff2") format("woff2"), url("../fonts/Alegreya-Medium.woff") format("woff");
@@ -13,10 +20,17 @@
 	font-style: normal;
 }
 @font-face{
+	font-family: Alegreya;
+	font-display: swap;
+	src: url("../fonts/Alegreya-Regular.woff2") format("woff2"), url("../fonts/Alegreya-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
 	font-family: OpenSans;
 	font-display: swap;
-	src: url("../fonts/OpenSans-Light.woff2") format("woff2"), url("../fonts/OpenSans-Light.woff") format("woff");
-	font-weight: 300;
+	src: url("../fonts/OpenSans-Semibold.woff2") format("woff2"), url("../fonts/OpenSans-Semibold.woff") format("woff");
+	font-weight: 600;
 	font-style: normal;
 }
 @font-face{
@@ -46,4 +60,9 @@
 @mixin o-reg {
 	font-family: OpenSans;
 	font-weight: 400;
+}
+
+@mixin o-semi {
+	font-family: OpenSans;
+	font-weight: 600;
 }
